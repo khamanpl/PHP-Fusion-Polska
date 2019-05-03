@@ -1,5 +1,4 @@
 <?php
-// Official SVN Trunk Rev: 1732
 $locale['400'] = "Linki";
 // Download File Information
 $locale['410'] = "[NOWY]";
