@@ -1,128 +1,124 @@
 <?php
-$locale['400'] = "Submit Link";
+$locale['400'] = "Dodaj link";
 // Submit Link Success
-$locale['410'] = "Thank you for submitting your Link";
-$locale['411'] = "Submit another Link";
-$locale['412'] = "Return to ".$settings['sitename'];
+$locale['410'] = "Dziękujemy za dodanie linka.";
+$locale['411'] = "Dodaj kolejny link";
+$locale['412'] = "Powróć do ".$settings['sitename'];
 // Submit Link Form
-$locale['420'] = "Use the following form to submit a Link. Your submission will be verified by an
-Administrator. Links deemed unsuitable will not be accepted.";
-$locale['421'] = "Link Category:";
-$locale['422'] = "Link Name:";
-$locale['423'] = "Link URL:";
-$locale['424'] = "Link Description:";
-$locale['425'] = "Submit Link";
+$locale['420'] = "Skorzystaj z&nbsp;poniższego formularza, aby dodać linka. Zostanie on sprawdzony przez administratora. Link
+powinien być prawidłowy, zgodny z&nbsp;tematyką strony oraz ogólnie przyjętymi zasadami, w&nbsp;przeciwnym wypadku zostanie on odrzucony.";
+$locale['421'] = "Kategoria:";
+$locale['422'] = "Nazwa:";
+$locale['423'] = "Adres URL:";
+$locale['424'] = "Opis:";
+$locale['425'] = "Dodaj";
 // Submit News
-$locale['450'] = "Submit News";
+$locale['450'] = "Dodaj newsa";
 // Submit News Success
-$locale['460'] = "Thank you for submitting your News";
-$locale['461'] = "Submit another News item";
+$locale['460'] = "Dziękujemy za dodanie newsa";
+$locale['461'] = "Dodaj kolejnego newsa";
 // Submit News Form
-$locale['470'] = "Use the following form to submit News. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. Your News submission should be applicable to the content of this site. 
-Unsuitable submissions will be deleted.";
-$locale['471'] = "Subject:";
-$locale['472'] = "News:";
-$locale['473'] = " Enable Automatic Line-Breaks";
-$locale['474'] = "Preview News";
-$locale['475'] = "Submit News";
-$locale['476'] = "Category:";
-$locale['477'] = "- None -";
-$locale['478'] = "News Snippet:";
+$locale['470'] = "Skorzystaj z&nbsp;poniższego formularza, aby dodać newsa. Zostanie on sprawdzony przez administratora. ".$settings['sitename']." zastrzega sobie prawo do edycji lub usunięcia nadesłanych danych. News
+powinien być zgodny z&nbsp;tematyką strony oraz ogólnie przyjętymi zasadami, w&nbsp;przeciwnym wypadku zostanie on odrzucony.";
+$locale['471'] = "Temat:";
+$locale['472'] = "Treść rozszerzona:";
+$locale['473'] = " Włącz automatyczne łamanie linii";
+$locale['474'] = "Podgląd";
+$locale['475'] = "Dodaj";
+$locale['476'] = "Kategoria:";
+$locale['477'] = "- Brak -";
+$locale['478'] = "Treść:";
 // Submit Blog
-$locale['450b'] = "Submit Blog";
+$locale['450b'] = "Wyślij Blog";
 // Submit Blog Success
-$locale['460b'] = "Thank you for submitting your Blog";
-$locale['461b'] = "Submit another Blog item";
+$locale['460b'] = "Dziękujemy za dodanie bloga";
+$locale['461b'] = "Dodaj kolejnego bloga";
 // Submit Blog Form
-$locale['470b'] = "Use the following form to submit Blog. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. Your Blog submission should be applicable to the content of this site. 
-Unsuitable submissions will be deleted.";
-$locale['471b'] = "Subject:";
+$locale['470b'] = "Skorzystaj z&nbsp;poniższego formularza, aby dodać bloga. Zostanie on sprawdzony przez administratora. ".$settings['sitename']." zastrzega sobie prawo do edycji lub usunięcia nadesłanych danych. Blog
+powinien być zgodny z&nbsp;tematyką strony oraz ogólnie przyjętymi zasadami, w&nbsp;przeciwnym wypadku zostanie on odrzucony.";
+$locale['471b'] = "Temat:";
 $locale['472b'] = "Blog:";
-$locale['473b'] = " Enable Automatic Line-Breaks";
-$locale['474b'] = "Preview Blog";
-$locale['475b'] = "Submit Blog";
-$locale['476b'] = "Category:";
-$locale['477b'] = "- None -";
-$locale['478b'] = "Blog Snippet:";
+$locale['473b'] = " Włącz automatyczne łamanie linii";
+$locale['474b'] = "Podgląd";
+$locale['475b'] = "Dodaj";
+$locale['476b'] = "Kategoria:";
+$locale['477b'] = "- Brak -";
+$locale['478b'] = "Treść:";
 // Submit Article
-$locale['500'] = "Submit Article";
+$locale['500'] = "Dodaj artykuł";
 // Submit Article Success
-$locale['510'] = "Thank you for submitting your Article";
-$locale['511'] = "Submit another Article";
+$locale['510'] = "Dziękujemy za dodanie artykułu";
+$locale['511'] = "Dodaj kolejny artykuł";
 // Submit Article Form
-$locale['520'] = "Use the following form to submit an Article. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. Articles
-should be applicable to the content of this site. Unsuitable submissions will be deleted.";
-$locale['521'] = "Category:";
-$locale['522'] = "Subject:";
-$locale['523'] = "Snippet:";
-$locale['524'] = "Article:";
-$locale['525'] = " Enable Automatic Line-Breaks";
-$locale['526'] = "Preview Article";
-$locale['527'] = "Submit Article";
+$locale['520'] = "Skorzystaj z&nbsp;poniższego formularza, aby dodać artykuł. Zostanie on sprawdzony przez administratora. ".$settings['sitename']." zastrzega sobie prawo do edycji lub usunięcia nadesłanych danych. Artykuł
+powinien być zgodny z&nbsp;tematyką strony oraz ogólnie przyjętymi zasadami, w&nbsp;przeciwnym wypadku zostanie on odrzucony.";
+$locale['521'] = "Kategoria:";
+$locale['522'] = "Temat:";
+$locale['523'] = "Streszczenie:";
+$locale['524'] = "Treść artykułu:";
+$locale['525'] = " Włącz autmatyczne łamanie linii";
+$locale['526'] = "Podgląd";
+$locale['527'] = "Dodaj";
 // Submit Error
-$locale['550'] = "Please complete all required fields.";
-$locale['551'] = "There are no categories defined.";
-$locale['552'] = "There are no albums defined.";
+$locale['550'] = "Wypełnij wszystkie wymagane pola!";
+$locale['551'] = "Nie zdefinowano kategorii.";
+$locale['552'] = "Brak udostępnionych albumów.";
 // Submit Photo
-$locale['570'] = "Submit Photo";
+$locale['570'] = "Dodaj zdjęcie";
 // Submit Photo Success
-$locale['580'] = "Thank you for submitting your Photo";
-$locale['581'] = "Submit another Photo";
+$locale['580'] = "Dziękujemy za dodanie zdjęcia";
+$locale['581'] = "Dodaj kolejne zdjęcie";
 // Submit Photo Error
-$locale['600'] = "Your Photo could not be submitted";
-$locale['601'] = "Invalid image filename.";
-$locale['602'] = "Image must be less than %u bytes.";
-$locale['603'] = "Image must be a GIF, JPEG or PNG file.";
-$locale['604'] = "Image must be no bigger than %uw x %uh pixels.";
+$locale['600'] = "Zdjęcie nie mogło być dodane, ponieważ:";
+$locale['601'] = "ma nieprawidłową nazwę pliku - usuń z&nbsp;niej wszystkie spacje oraz polskie znaki diakrytyczne.";
+$locale['602'] = "musi mieć rozmiar nie większy niż %u bajtów.";
+$locale['603'] = "musi mieć format pliku *.GIF, *.JPEG lub *.PNG.";
+$locale['604'] = "nie może być większe niż %uw x %uh pikseli.";
 // Submit Photo Form
-$locale['620'] = "Use the following form to submit a Photo. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. Photos
-should be applicable to the content of this site. Submissions deemed unsuitable will be rejected.";
-$locale['621'] = "Title:";
-$locale['622'] = "Description:";
-$locale['623'] = "Image: ";
-$locale['624'] = "Max. filesize: %s / Max. size: %ux%u pixels";
+$locale['620'] = "Skorzystaj z&nbsp;poniższego formularza, aby dodać zdjęcie. Zostanie ono sprawdzone przez administratora. ".$settings['sitename']." zastrzega sobie prawo do edycji lub usunięcia nadesłanych danych. Zdjęcie
+powinno być zgodne z&nbsp;tematyką strony oraz ogólnie przyjętymi zasadami, w&nbsp;przeciwnym wypadku zostanie ono odrzucone.";
+$locale['621'] = "Tytuł:";
+$locale['622'] = "Opis:";
+$locale['623'] = "Zdjęcie: ";
+$locale['624'] = "Maks. rozmiar pliku: %s / Maks. wymiary: %ux%u pikseli";
 $locale['625'] = "Album:";
-$locale['626'] = "Submit Photo";
+$locale['626'] = "Dodaj";
 // Submit Download
-$locale['650'] = "Submit Download";
+$locale['650'] = "Dodaj plik";
 // Submit Download Success
-$locale['660'] = "Thank you for submitting your Download";
-$locale['661'] = "Submit another Download";
+$locale['660'] = "Dziękujemy za dodanie pliku";
+$locale['661'] = "Dodaj kolejny plik";
 // Submit Download Error
-$locale['670'] = "Your Download could not be submitted";
-$locale['671'] = "Invalid filename.";
-$locale['671a'] = "Invalid image filename.";
-$locale['672'] = "File must be less than %s.";
-$locale['672a'] = "Image must be less than %s.";
-$locale['672b'] = "Image must be smaller than %s.";
-$locale['673'] = "File must be one of the following file types: %s.";
-$locale['673a'] = "Image must be one of the following file types: %s.";
-$locale['674'] = "Download title cannot be left empty.";
-$locale['675'] = "Download file or url cannot be left empty.";
-$locale['676'] = "Download short description cannot be left empty.";
-$locale['676a'] = "Unknown error";
+$locale['670'] = "Nie można było dodać pliku, ponieważ";
+$locale['671'] = "ma nieprawidłową nazwę pliku - usuń z&nbsp;niej wszystkie spacje oraz polskie znaki diakrytyczne.";
+$locale['671a'] = "ma nieprawidłową nazwę pliku zrzutu ekranu - usuń z&nbsp;niej wszystkie spacje oraz polskie znaki diakrytyczne.";
+$locale['672'] = "musi mieć rozmiar nie większy niż %s bajtów.";
+$locale['672a'] = "Zrzut ekranu musi mieć rozmiar nie większy niż %s bajtów.";
+$locale['672b'] = "Zrzut ekranu musi być mniejszy niż %s.";
+$locale['673'] = "Typ pliku musi należeć do następującej grupy: %s.";
+$locale['673a'] = "Typ pliku zrzutu ekranu musi należeć do następującej grupy: %s.";
+$locale['674'] = "Nie podano nazwy pliku.";
+$locale['675'] = "Pola adres lub plik nie mogą być puste.";
+$locale['676'] = "Nie podano krótkiego opisu pliku.";
+$locale['676a'] = "Nieznany bład!";
 // Submit Download Form
-$locale['680'] = "Use the following form to submit a Download. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. Downloads
-should be applicable to the content of this site. Submissions deemed unsuitable will be rejected.";
-$locale['681'] = "Title:";
-$locale['682'] = "Description:";
-$locale['682b'] = "Short description:";
-$locale['683'] = "URL:";
-$locale['684'] = "or File:";
-$locale['685'] = "Calculate file size";
-$locale['686'] = "Screenshot:";
-$locale['687'] = "Category:";
-$locale['688'] = "License:";
+$locale['680'] = "Skorzystaj z&nbsp;poniższego formularza, aby dodać plik do downloadu. Zostanie on sprawdzony przez administratora. ".$settings['sitename']." zastrzega sobie prawo do edycji lub usunięcia nadesłanych danych. Plik
+powinien być zgodny z&nbsp;tematyką strony oraz ogólnie przyjętymi zasadami, w&nbsp;przeciwnym wypadku zostanie on odrzucony";
+$locale['681'] = "Nazwa:";
+$locale['682'] = "Pełny opis:";
+$locale['682b'] = "Krótki opis:";
+$locale['683'] = "Adres:";
+$locale['684'] = "lub plik:";
+$locale['685'] = "Oblicz rozmiar pliku";
+$locale['686'] = "Zrzut ekranu:";
+$locale['687'] = "Kategoria:";
+$locale['688'] = "Licencja:";
 $locale['689'] = "O/S:";
-$locale['690'] = "Version:";
-$locale['691'] = "Homepage:";
-$locale['692'] = "Copyright:";
-$locale['693'] = "Filesize:";
-$locale['694'] = "Max. filesize: %s / Allowed filetypes: %s";
-$locale['694b'] = "Max. filesize: %s / Allowed filetypes: %s / Max width: %spx, Max. height: %spx";
-$locale['695'] = "Submit Download";
+$locale['690'] = "Wersja:";
+$locale['691'] = "Strona domowa:";
+$locale['692'] = "Prawa autorskie:";
+$locale['693'] = "Rozmiar pliku:";
+$locale['694'] = "Maks. rozmiar pliku: %s /  Dozwolone typy plików: %s";
+$locale['694b'] = "Maks. rozmiar zrzutu ekranu: %s / Dozwolone typy plików: %s / Maks. szerokość: %spx, Maks. wysokość: %spx";
+$locale['695'] = "Dodaj";
+?>
