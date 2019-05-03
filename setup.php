@@ -2,10 +2,8 @@
 $locale['title'] = "Instalator PHP-Fusion Core 8";
 $locale['sub-title'] = "Instalator PHP-Fusion Core 8";
 $locale['os_version'] = '8.0';
-
 $locale['xml_lang'] = "pl";
 $locale['charset'] = "utf-8";
-
 $locale['001'] = "Krok 1. Język";
 $locale['002'] = "Krok 2. Sprawdzenie praw dostępu do plików i&nbsp;katalogów";
 $locale['003'] = "Krok 3. Ustawienia bazy danych";
@@ -19,6 +17,8 @@ $locale['009'] = "Zakończ";
 // Step 1
 $locale['010'] = "Wybierz język strony:";
 $locale['011'] = "Więcej wersji językowych na <a href='https://www.php-fusion.co.uk'>php-fusion.co.uk</a>";
+$locale['012'] = "Aby korzystać z PHP-Fusion, musisz zaakceptować warunki PHP-Fusion.";
+$locale['013'] = " Przeczytałem i zgodziłem się na <a href='https://www.php-fusion.co.uk/licensing/licensing.php' target='_blank'>Warunki użytkowania</a>";
 
 // Step 2
 $locale['020'] = "Poniższe pliki i&nbsp;katalogi muszę być zapisywalne, aby poprawnie zakończyć instalację:";
@@ -85,7 +85,7 @@ $locale['076'] = "Podano nieprawidłowy adres e-mail.";
 $locale['076b'] = "Pole adres e-mail nie może być puste!";
 $locale['077'] = "Podane dane użytkownika zawierają następujące błędy:";
 
-// Step 6 - Admin Panels
+// Step 6 - Admin Items
 $locale['080'] = "Administratorzy";
 $locale['081'] = "Kategorie artykułów";
 $locale['082'] = "Artykuły";
@@ -193,7 +193,7 @@ $locale['MLT012'] = "Panele";
 $locale['MLT013'] = "Rangi forum";
 $locale['MLT014'] = "Blog";
 
-// Stage 6 - News Categories
+// Stage 6 - News & Blog default Categories
 $locale['180'] = "Błędy";
 $locale['181'] = "Download";
 $locale['182'] = "Gry";
@@ -222,7 +222,7 @@ $locale['206'] = "Doświadczony użytkownik";
 $locale['207'] = "Weteran";
 $locale['208'] = "Fusionista";
 
-// Stage 6 - Defaut Smileys
+// Stage 6 - Default Smileys
 $locale['210'] = "Uśmiech";
 $locale['211'] = "Z przymrużeniem oka";
 $locale['212'] = "Smutek";
@@ -249,8 +249,6 @@ Naciśnij Zakończ, aby przejść na swoją stronę opartą o&nbsp;PHP-Fusion.</
 Dziękujemy za wybranie PHP-Fusion.</p>";
 
 // Default time settings
-
-// http://php.net/manual/en/function.strftime.php
 $locale['shortdate'] = "%d.%m.%y";
 $locale['longdate'] = "%B %d %Y %H:%M:%S";
 $locale['forumdate'] = "%d-%m-%Y %H:%M";
@@ -271,4 +269,3 @@ $locale['T303'] = "[MESSAGE]";
 
 // Language Admin
 $locale['L001'] = "Ustawienia wielojęzykowe";
-?>

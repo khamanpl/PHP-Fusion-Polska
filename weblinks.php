@@ -1,10 +1,9 @@
 <?php
-$locale['400'] = "Linki";
+$locale['400'] = "Web Links";
 // Download File Information
-$locale['410'] = "[NOWY]";
-$locale['411'] = "Data dodania:";
-$locale['412'] = "Wizyt:";
+$locale['410'] = "New";
+$locale['411'] = "Date Added:";
+$locale['412'] = "Visits:";
 // Downloads Notices
-$locale['430'] = "Brak udostępnionych kategorii linków.";
-$locale['431'] = "Brak udostępnionych linków.";
-?>
+$locale['430'] = "No Web Link Categories defined";
+$locale['431'] = "No Web Links have been added to this Category";

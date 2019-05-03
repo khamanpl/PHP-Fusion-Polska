@@ -1,11 +1,10 @@
 <?php
-$locale['f400'] = "Forum";
-$locale['f401'] = "całe";
-$locale['f402'] = "post spełniający";
-$locale['f403'] = "postów spełniających";
-$locale['f404'] = "Przyklejony:";
-$locale['f405'] = "Ogłoszenie:";
-$locale['f406'] = "znalezionych w";
-$locale['f407'] = "temacie posta";
-$locale['f408'] = "treści posta.";
-?>
+$locale['f400'] = "Forum Posts";
+$locale['f401'] = "all forums";
+$locale['f402'] = "Forum Post";
+$locale['f403'] = "Forum Posts";
+$locale['f404'] = "Sticky:";
+$locale['f405'] = "Announcement:";
+$locale['f406'] = "found in";
+$locale['f407'] = "post subject";
+$locale['f408'] = "post message";

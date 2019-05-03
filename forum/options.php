@@ -1,37 +1,35 @@
 <?php
-// Official SVN Trunk Rev: 1732
 // Delete Thread
-$locale['400'] = "Usunięcie tematu";
-$locale['401'] = "Temat został usunięty.";
-$locale['402'] = "Wróć do forum";
-$locale['403'] = "Wróć do głównej strony forum";
-$locale['404'] = "Na pewno chcesz usunąć temat?";
-$locale['405'] = "Tak";
-$locale['406'] = "Nie";
+$locale['400'] = "Delete Thread";
+$locale['401'] = "The Thread has been deleted.";
+$locale['402'] = "Return to Forum";
+$locale['403'] = "Return to Forum Index";
+$locale['404'] = "Are you sure you want to delete this Thread?";
+$locale['405'] = "Yes";
+$locale['406'] = "No";
 // Lock Thread
-$locale['410'] = "Blokowanie tematu";
-$locale['411'] = "Temat został zablokowany.";
+$locale['410'] = "Lock Thread";
+$locale['411'] = "The Thread has been locked.";
 // Unlock Thread
-$locale['420'] = "Odblokowanie tematu";
-$locale['421'] = "Temat został odblokowany.";
+$locale['420'] = "Unlock Thread";
+$locale['421'] = "The Thread has been unlocked.";
 // Make Thread Sticky
-$locale['430'] = "Przyklejenie tematu";
-$locale['431'] = "Temat został przyklejony.";
+$locale['430'] = "Make Thread Sticky";
+$locale['431'] = "The Thread has been made sticky.";
 // Make Thread Non-Sticky
-$locale['440'] = "Odklejanie tematu";
-$locale['441'] = "Temat został odklejony.";
+$locale['440'] = "Make Thread Non-Sticky";
+$locale['441'] = "The Thread has been made non-sticky.";
 // Move Thread
-$locale['450'] = "Przenoszenie tematu";
-$locale['451'] = "Przenieś temat do:";
-$locale['452'] = "Temat został przeniesiony.";
+$locale['450'] = "Move Thread";
+$locale['451'] = "Move Thread to:";
+$locale['452'] = "The Thread has been moved successfully.";
 // Renew Thread
-$locale['458'] = "Odświeżanie tematu";
-$locale['459'] = "Odświeżono temat.";
+$locale['458'] = "Renew Thread";
+$locale['459'] = "The Thread has been renewed.";
 // Search Forum
 $locale['460'] = "Forum";
-$locale['461'] = "Temat";
-$locale['462'] = "Autor";
-$locale['463'] = "Dodany";
-$locale['464'] = "Brak wyników spełniających powyższe kryteria, spróbuj jeszcze raz.";
-$locale['465'] = "Wpisz przynajmniej jedno słowo, aby przeszukać forum.";
-?>
+$locale['461'] = "Subject";
+$locale['462'] = "Author";
+$locale['463'] = "Posted";
+$locale['464'] = "No matches found, please try again.";
+$locale['465'] = "Please specify at least one word to search for.";

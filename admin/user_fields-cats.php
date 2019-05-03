@@ -1,31 +1,41 @@
 <?php
-// Official SVN Trunk Rev: 1732
 // User Fields Categories titles
-$locale['400'] = "Dodaj kategorię pól profilu";
-$locale['401'] = "Edytuj kategorię pól profilu";
-$locale['402'] = "Istniejące kategorie pól profilu";
+$locale['400'] = "Add User Fields Category";
+$locale['401'] = "Edit User Fields Category";
+$locale['402'] = "Current User Fields Categories";
 // User Fields Categories messages
-$locale['410'] = "Dodano kategorię pól profilu.";
-$locale['411'] = "Zaktualizowano kategorię pól profilu.";
-$locale['412'] = "Usunięto kategorię pól profilu.";
-$locale['413'] = "Nie można było usunąć kategorii pól profilu.";
-$locale['414'] = "Do kategorii są przypisane pola profilu.<br />Przenieś je do innej kategorii.";
+$locale['410'] = "User Fields Category added";
+$locale['411'] = "User Fields Category updated";
+$locale['412'] = "User Fields Category deleted";
+$locale['413'] = "User Fields Category cannot be deleted";
+$locale['414'] = "There are User Fields linked to this category";
 // User Fields Categories form
-$locale['420'] = "Nazwa kategorii";
-$locale['421'] = "Kolejność kategorii";
-$locale['422'] = "Zapisz";
+$locale['420'] = "Category Name";
+$locale['421'] = "Category Order";
+$locale['422'] = "Save Category";
+$locale['423'] = "Category DB Name";
+$locale['424'] = "Database Table Name";
+$locale['425'] = "Icon Class";
+$locale['426'] = "As New Page?";
+$locale['427'] = "Yes, create as new page.";
+$locale['428'] = "Primary Index";
+$locale['429'] = "Primary Column Name";
 // User Fields Categories list
-$locale['430'] = "Kolejność";
-$locale['431'] = "Opcje";
-$locale['432'] = "Edytuj";
-$locale['433'] = "Usuń";
-$locale['434'] = "Nie zdefiniowano kategorii pól profilu.";
+$locale['430'] = "Order";
+$locale['431'] = "Options";
+$locale['432'] = "Edit";
+$locale['433'] = "Delete";
+$locale['434'] = "No User Fields Categories have been defined.";
+$locale['435'] = "Page";
+$locale['436'] = "User Info Page";
 // User Fields Categories Ordering
-$locale['440'] = "Przesuń wyżej";
-$locale['441'] = "Przesuń niżej";
-$locale['442'] = "Przesuń wyżej";
-$locale['443'] = "Przesuń niżej";
-$locale['444'] = "Odśwież kolejność kategorii pól profilu";
+$locale['440'] = "Up";
+$locale['441'] = "Down";
+$locale['442'] = "Move up";
+$locale['443'] = "Move down";
+$locale['444'] = "Refresh User Fields Categories Ordering";
 // Delete User Fields category
-$locale['450'] = "Usunąć kategorię pól profilu?";
-?>
+$locale['450'] = "Delete this User Fields Category?";
+// Error message
+$locale['450a'] = 'Please enter a category name.';
+$locale['450b'] = 'If you use another database other than the default users table, please fill in both the Database table name and its UserId Column.';

@@ -1,59 +1,39 @@
 <?php
-// Official SVN Trunk Rev: 1732
-$locale['email_create_subject'] = "Utworzono konto na ";
-$locale['email_create_message'] = "Witaj [USER_NAME]!\n
-Twoje konto na ".$settings['sitename']." zostało utworzone.\n
-Teraz możesz zalogować się, korzystając z poniższych informacji:\n
-nazwa użytkownika: [USER_NAME]\n
-hasło: [PASSWORD]\n\n
-Z pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
-
-$locale['email_activate_subject'] = "Aktywowano konto na ";
-$locale['email_activate_message'] = "Witaj [USER_NAME]!\n
-Twoje konto na  ".$settings['sitename']." zostało aktywowane.\n
-Teraz możesz zalogować się przy użyciu swojej nazwy użytkownika i hasła.\n
-Wszystkiego dobrego\n
+$locale['email_create_subject'] = "Account created at ";
+$locale['email_create_message'] = "Hello [USER_NAME],\n
+Your account at ".$settings['sitename']." has been created.\n
+You can now login using the following details:\n
+username: [USER_NAME]\n
+password: [PASSWORD]\n\n
+Regards,\n
 ".$settings['siteusername'];
-
-$locale['email_deactivate_subject'] = "Reaktywacja konta na ".$settings['sitename'];
-$locale['email_deactivate_message'] = "Witaj [USER_NAME]!\n
-Minęło ".$settings['deactivation_period']." dni od Twojego ostatniego zalogowania się na ".$settings['sitename'].". Twoje konto zostało uznane za bezczynne. Dane z nim związane pozostały niezmienione.\n
-Aby reaktywować konto, naciśnij na poniższy link:\n
-".$settings['siteurl']."reactivate.php?user_id=[USER_ID]&code=[CODE]\n
-Z pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
-
-$locale['email_ban_subject'] = "Twoje konto na ".$settings['sitename']." zostało zablokowane";
-$locale['email_ban_message'] = "Witaj [USER_NAME]!\n
-Twoje konto na ".$settings['sitename']." zostało zablokowane przez ".$userdata['user_name']." z następujących powodów:\n
+$locale['email_activate_subject'] = "Account activated at ";
+$locale['email_activate_message'] = "Hello [USER_NAME],\n
+Your account at ".$settings['sitename']." has been activated.\n
+You can now login using your chosen username and password.\n\n
+Regards,\n
+".$settings['siteusername'];
+$locale['email_deactivate_subject'] = "Account reactivation required at ".$settings['sitename'];
+$locale['email_deactivate_message'] = "Hello [USER_NAME],\n
+It has been ".$settings['deactivation_period']." day(s) since you last logged in at ".$settings['sitename'].". Your user has been marked as inactive but all your account details and content remains intact.\n
+To reactivate your account simply click the following link:\n
+".$settings['siteurl']."reactivate.php?user_id=[USER_ID]&code=[CODE]\n\n
+Regards,\n
+".$settings['siteusername'];
+$locale['email_ban_subject'] = "Your account on ".$settings['sitename']." has been banned";
+$locale['email_ban_message'] = "Hello [USER_NAME],\n
+Your account on ".$settings['sitename']." has been banned by ".$userdata['user_name']." because of the following reason:\n
 [REASON].\n
-Jeśli potrzebujesz szczegółowych informacji dotyczących blokady konta, skontaktuj się z administracją strony wysyłając e-mail na adres ".$settings['siteemail'].".\n
-Z pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
-
-$locale['email_secban_subject'] = "Twoje konto na ".$settings['sitename']." zostało zablokowane";
-$locale['email_secban_message'] = "Witaj [USER_NAME]!\n
-Twoje konto na ".$settings['sitename']." zostało zablokowane przez ".$userdata['user_name'].", ponieważ podjęte przez Ciebie działania stanowiły zagrożenie dla strony i jej użytkowników.\n
-Jeśli potrzebujesz szczegółowych informacji dotyczących blokady konta, skontaktuj się z administracją strony wysyłając e-mail na adres ".$settings['siteemail'].".\n
-Z pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
-
-$locale['email_suspend_subject'] = "Twoje konto na ".$settings['sitename']."zostało zawieszone";
-$locale['email_suspend_message'] = "Witaj [USER_NAME]!\n
-Twoje konto na ".$settings['sitename']." zostało zawieszona przez ".$userdata['user_name']." do [DATE] (wg czasu strony) z następujących powodów:\n
+If you want more information about this ban, please, contact the site administrator at ".$settings['siteemail'].".\n
+".$settings['siteusername'];
+$locale['email_secban_subject'] = "Your account on ".$settings['sitename']." has been banned";
+$locale['email_secban_message'] = "Hello [USER_NAME],\n
+Your account on ".$settings['sitename']." has been banned by ".$userdata['user_name']." because of some actions accredited to you or linked to your account were considered a security threat to the site.\n
+If you want more information about this security ban, please, contact the site administrator at ".$settings['siteemail'].".\n
+".$settings['siteusername'];
+$locale['email_suspend_subject'] = "Your account on ".$settings['sitename']." has been suspended";
+$locale['email_suspend_message'] = "Hello [USER_NAME],\n
+Your account on ".$settings['sitename']." has been suspended by ".$userdata['user_name']." until [DATE] (site time) because of the following reason:\n
 [REASON].\n
-Jeśli potrzebujesz szczegółowych informacji dotyczących zawieszenia konta, skontaktuj się z administracją strony wysyłając e-mail na adres ".$settings['siteemail'].".\n
-Z pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią."
-?>
+If you want more information about this suspension, please, contact the site administrator at ".$settings['siteemail'].".\n
+".$settings['siteusername'];

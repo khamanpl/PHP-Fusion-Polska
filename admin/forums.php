@@ -1,90 +1,82 @@
 <?php
-// Official SVN Trunk Rev: 2500
 // Forum Category titles
-$locale['400'] = "Dodaj kategorię forum";
-$locale['401'] = "Edytuj kategorię forum";
+$locale['400'] = "Add Forum Category";
+$locale['401'] = "Edit Forum Category";
 // Forum Category messages
-$locale['410'] = "Dodano kategorię forum.";
-$locale['411'] = "Zaktualizowano kategorię forum.";
-$locale['412'] = "Nie można było usunąć kategorii forum.";
-$locale['413'] = "Do kategorii są przypisane fora.<br />Przenieś je do innej kategorii.";
-$locale['414'] = "Usunięto kategorię forum.";
+$locale['410'] = "Forum Category added";
+$locale['411'] = "Forum Category updated";
+$locale['412'] = "The Forum Category cannot be deleted";
+$locale['413'] = "There are forums associated with this category";
+$locale['414'] = "Forum Category deleted";
 // Forum Category form
-$locale['420'] = "Nazwa:";
-$locale['421'] = "Kolejność:";
-$locale['422'] = "Zapisz";
+$locale['420'] = "Category Name";
+$locale['420b'] = "Category Description";
+$locale['421'] = "Order";
+$locale['422'] = "Save Category";
 // Delete Forum Category
-$locale['440'] = "Usunąć kategorię forum?";
+$locale['440'] = "Delete Forum Category?";
 // Forum titles
-$locale['500'] = "Dodaj dział forum";
-$locale['501'] = "Edytuj dział forum";
+$locale['500'] = "Add Forum";
+$locale['501'] = "Edit Forum";
 // Forum Category messages
-$locale['510'] = "Dodano dział forum.";
-$locale['511'] = "Zaktualizowano dział forum.";
-$locale['512'] = "Nie można było usunąć działu forum.";
-$locale['513'] = "Do działu forum są przypisane tematy.<br />Przenieś je do innych działów.";
-$locale['514'] = "Usunięto dział forum.";
-$locale['515'] = "Zaktualizowano moderatorów działu forum.";
-$locale['516'] = "Musisz podać nazwę kategorii forum.";
-$locale['517'] = "Musisz podać niepowtarzalną nazwę działu forum.";
+$locale['510'] = "Forum added";
+$locale['511'] = "Forum updated";
+$locale['512'] = "The Forum cannot be deleted";
+$locale['513'] = "There are threads associated with this category";
+$locale['514'] = "Forum deleted";
+$locale['515'] = "Forum Moderators updated";
+$locale['516'] = "Please enter a category name.";
+$locale['517'] = "Please enter a unique forum name.";
 // Add/Edit Forum Form
-$locale['520'] = "Nazwa:";
-$locale['521'] = "Opis:";
-$locale['522'] = "Kategoria forum:";
-$locale['523'] = "Kolejność:";
-$locale['524'] = "Właściwości:";
-$locale['525'] = "Widoczne dla:";
-$locale['526'] = "Możliwość zakładania tematów przez:";
-$locale['527'] = "Możliwość dopisywania odpowiedzi przez:";
-$locale['528'] = "Możliwość dodania załączników przez:";
-$locale['529'] = "Możliwość założenia ankiety przez:";
-$locale['530'] = "Możliwość zagłosowania przez:";
-$locale['531'] = "Wyłączone";
-$locale['532'] = "Zapisz";
-$locale['533'] = "Moderowane przez:";
-$locale['534'] = "Zapisz moderatorów forum";
-$locale['535'] = "Możliwość pobierania załączników przez::";
+$locale['520'] = "Forum Name:";
+$locale['521'] = "Forum Description:";
+$locale['522'] = "Forum Category:";
+$locale['523'] = "Order:";
+$locale['524'] = "Forum Privileges";
+$locale['525'] = "Forum Access:";
+$locale['526'] = "Create Threads:";
+$locale['527'] = "Post Replies:";
+$locale['528'] = "Add Attachments:";
+$locale['529'] = "Create Polls:";
+$locale['530'] = "Cast Votes:";
+$locale['531'] = "Off";
+$locale['532'] = "Save Forum";
+$locale['533'] = "Forum Moderators";
+$locale['534'] = "Save Forum Moderators";
+$locale['535'] = "Download Attachments:";
 // Forum Settings
-$locale['540'] = "Ustawienia działu:";
-$locale['541'] = "Włączyć łączenie postów:";
-$locale['542'] = "Tak";
-$locale['543'] = "Nie";
+$locale['540'] = "Forum Settings:";
+$locale['541'] = "Post Merger:";
+$locale['542'] = "Enabled";
+$locale['543'] = "Disabled";
 // Current Forums
-$locale['550'] = "Istniejące działy";
-$locale['551'] = "Kategorie/Działy";
-$locale['552'] = "Kolejność";
-$locale['553'] = "Opcje";
-$locale['554'] = "Edytuj";
-$locale['555'] = "Usuń";
-$locale['556'] = "Przenieś wyżej";
-$locale['557'] = "Przenieś niżej";
-$locale['558'] = "Przenieś wyżej";
-$locale['559'] = "Przenieś niżej";
-$locale['560'] = "Nie zdefiniowano kategorii forum";
-$locale['561'] = "Nie zdefiniowano działów";
-$locale['562'] = "Odśwież kolejność";
-$locale['563'] = "Wyczyść dział";
+$locale['550'] = "Current Forums";
+$locale['551'] = "Category/Forum";
+$locale['552'] = "Order";
+$locale['553'] = "Options";
+$locale['554'] = "Edit";
+$locale['555'] = "Delete";
+$locale['556'] = "Up";
+$locale['557'] = "Down";
+$locale['558'] = "Move up";
+$locale['559'] = "Move down";
+$locale['560'] = "No Forum Categories defined";
+$locale['561'] = "No Forums defined";
+$locale['562'] = "Refresh Forum Ordering";
+$locale['563'] = "Prune";
 // Delete Forum
-$locale['570'] = "Usunąć?";
+$locale['570'] = "Delete Forum?";
 // Pruning
-$locale['600'] = "Wyczyść dział";
-$locale['601'] = "Niniejsze narzędzie służy do";
-$locale['602'] = "czyszczenia działu z&nbsp;materiałów z&nbsp;wybranego przedziału czasu.";
-$locale['603'] = "Wyczyść dział z&nbsp;materiałów starszych niż: ";
-$locale['604'] = "tydzień";
-$locale['605'] = "tygodnie";
-$locale['606'] = "miesiąc";
-$locale['607'] = "miesiące";
-$locale['608'] = "Zakończono czyszczenie działu.";
-$locale['609'] = "Usunięto postów: ";
-$locale['610'] = "Usunięto załączników: ";
-$locale['611'] = "Usunięto tematów: ";
-$locale['612'] = "Czyszczenie działu bezpowrotnie usunie tematy, posty oraz załączniki z&nbsp;wybranego przedziału czasu. Na pewno chcesz wyczyścić forum?";
-
-/* My own patch, if you don't want it - comment lines below.
- * To moja własna łatka, jeśli nie chcesz z niej korzystać - zakomentuj poniższe linie
- * Tomasz "jantom" Jankowski, Date: 11 04 2011 13:40 */
-$locale['607a'] = "miesięcy";
-replace_in_output("6 ".$locale['607'],"6 ".$locale['607a']);
-replace_in_output("5 ".$locale['607'],"5 ".$locale['607a']);
-?>
+$locale['600'] = "Prune Forum";
+$locale['601'] = "This procedure will remove threads and posts";
+$locale['602'] = "that are older than the selected period of time.";
+$locale['603'] = "Prune Period: ";
+$locale['604'] = "Week";
+$locale['605'] = "Weeks";
+$locale['606'] = "Month";
+$locale['607'] = "Months";
+$locale['608'] = "Forum pruning complete.";
+$locale['609'] = "Posts Deleted: ";
+$locale['610'] = "Attachments Deleted: ";
+$locale['611'] = "Threads Deleted: ";
+$locale['612'] = "Pruned threads, posts and attachments will be lost. Do you really want to prune this forum?";

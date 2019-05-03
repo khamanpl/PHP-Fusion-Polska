@@ -1,6 +1,4 @@
 <?php
-// Official SVN Trunk Rev: 1815
-$locale['uf_birthdate'] = "Data urodzin";
-$locale['uf_birthdate_desc'] = "Wyświetla datę urodzin użytkownika.";
-$locale['uf_birthdate_error'] = "Data urodzin została podana nieprawidłowo.";
-?>
+$locale['uf_birthdate'] = "Birthdate";
+$locale['uf_birthdate_desc'] = "Displays user's birth date";
+$locale['uf_birthdate_error'] = "Birth date was not set correctly.";

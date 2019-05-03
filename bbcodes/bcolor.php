@@ -1,5 +1,4 @@
 <?php
-$locale['bb_bcolor_description'] = "Zmienia kolor tła zaznaczonego tekstu";
-$locale['bb_bcolor_usage'] = "tekst ze zmienionym tłem";
-$locale['bb_bcolor_hex'] = "heksadecymalna (szesnastkowa) wartość koloru tła";
-?>
+$locale['bb_bcolor_description'] = "Color background of selected text";
+$locale['bb_bcolor_usage'] = "Color background of selected text";
+$locale['bb_bcolor_hex'] = "HEX background color value";

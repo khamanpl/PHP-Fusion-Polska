@@ -1,37 +1,32 @@
 <?php
-// Official SVN Trunk Rev: 2300
-$locale['400'] = "Informacje o serwerze";
+$locale['400'] = "PHP Info";
 //General
-$locale['401'] = "Ogólne";
-$locale['402'] = "System";
-$locale['403'] = "Oprogramowanie serwera WWW";
-$locale['404'] = "Wersja PHP";
-$locale['405'] = "Interfejs PHP";
-$locale['406'] = "Wersja serwera MySQL";
-$locale['407'] = "Wersja PHP-Fusion";
-$locale['408'] = "Prefiks bazy danych";
-$locale['409'] = "Prefiks ciasteczek (cookies)";
-$locale['410'] = "Przeglądarka i OS";
-
+$locale['401'] = "General";
+$locale['402'] = "Server software";
+$locale['403'] = "Webserver software";
+$locale['404'] = "PHP version";
+$locale['405'] = "PHP interface";
+$locale['406'] = "MySQL Server version";
+$locale['407'] = "PHP-Fusion version";
+$locale['408'] = "Database prefix";
+$locale['409'] = "Cookie prefix";
+$locale['410'] = "Webbrowser and OS";
 //PHP settings
-$locale['420'] = "Ustawienia PHP";
-$locale['421'] = "Tak";
-$locale['422'] = "Nie";
-$locale['423'] = "Włączony tryb Safemod";
-$locale['424'] = "Włączona obsługa RegisterGlobals";
-$locale['425'] = "Wsparcie dla";
-$locale['426'] = "Wgrywanie plików (maks. wielkość pliku)";
-$locale['428'] = "Włączone wyświetlanie błędów";
-$locale['429'] = "Wyłączone funkcje";
-$locale['430'] = "Brak wyłączonych funkcji";
-$locale['431'] = "Wersja";
-
+$locale['420'] = "PHP settings";
+$locale['421'] = "Yes";
+$locale['422'] = "No";
+$locale['423'] = "Safemode";
+$locale['424'] = "RegisterGlobals";
+$locale['425'] = "Support for";
+$locale['426'] = "Files upload (max file size)";
+$locale['428'] = "Display errors";
+$locale['429'] = "Disabled functions";
+$locale['430'] = "n/a";
+$locale['431'] = "version";
 //Write permission
-$locale['440'] = "Uprawnienia do katalogów";
-$locale['441'] = "Zapis i odczyt";
-$locale['442'] = "Tylko do odczytu";
-
+$locale['440'] = "Folder Permissions";
+$locale['441'] = "Writable";
+$locale['442'] = "Not writable";
 //PHPinfo
-$locale['450'] = "Szczegółowe";
-$locale['451'] = "Nie można było uzyskać danych. Sprawdź, czy funkcja phpinfo() nie jest zablokowana?";
-?>
+$locale['450'] = "Details";
+$locale['451'] = "Unable to get data. Check if phpinfo() function is switched off?";

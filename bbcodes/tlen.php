@@ -1,4 +1,3 @@
 <?php
-$locale['bb_tlen_description'] = "Wyświetla status użytkownika Tlen - polskiego komunikatora internetowego";
-$locale['bb_tlen_usage'] = "login użytkownika Tlen";
-?>
+$locale['bb_tlen_description'] = "Tlen Polish communicator users status display";
+$locale['bb_tlen_usage'] = "Tlen user ID";

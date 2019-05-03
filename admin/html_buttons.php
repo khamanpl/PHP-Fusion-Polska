@@ -1,22 +1,20 @@
 <?php
-// Official SVN Trunk Rev: 1941
-$locale['html400'] = "- Wybierz kolor -";
-$locale['html401'] = "- Wybierz obraz -";
-$locale['html402'] = "Wiśniowy";
-$locale['html403'] = "Czerwony";
-$locale['html404'] = "Pomarańczowy";
-$locale['html405'] = "Brązowy";
-$locale['html406'] = "Żółty";
-$locale['html407'] = "Zielony";
-$locale['html408'] = "Limonkowy";
-$locale['html409'] = "Oliwkowy";
-$locale['html410'] = "Cyjan";
-$locale['html411'] = "Niebieski";
-$locale['html412'] = "Granatowy";
-$locale['html413'] = "Purpurowy";
-$locale['html414'] = "Fioletowy";
-$locale['html415'] = "Czarny";
-$locale['html416'] = "Szary";
-$locale['html417'] = "Srebrny";
-$locale['html418'] = "Biały";
-?>
+$locale['html400'] = "- Select Color -";
+$locale['html401'] = "- Select Image -";
+$locale['html402'] = "Maroon";
+$locale['html403'] = "Red";
+$locale['html404'] = "Orange";
+$locale['html405'] = "Brown";
+$locale['html406'] = "Yellow";
+$locale['html407'] = "Green";
+$locale['html408'] = "Lime";
+$locale['html409'] = "Olive";
+$locale['html410'] = "Cyan";
+$locale['html411'] = "Blue";
+$locale['html412'] = "Navy Blue";
+$locale['html413'] = "Purple";
+$locale['html414'] = "Violet";
+$locale['html415'] = "Black";
+$locale['html416'] = "Gray";
+$locale['html417'] = "Silver";
+$locale['html418'] = "White";

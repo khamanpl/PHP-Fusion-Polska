@@ -1,5 +1,3 @@
 <?php
-// Official SVN Trunk Rev: 1732
-$locale['uf_forum-stat'] = "Postów na forum";
-$locale['uf_forum-stat_desc'] = "Wyświetla liczbę napisanych postów na forum.";
-?>
+$locale['uf_forum-stat'] = "Forum Posts";
+$locale['uf_forum-stat_desc'] = "Displays number of forum posts.";

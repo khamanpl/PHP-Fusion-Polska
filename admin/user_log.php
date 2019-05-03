@@ -1,28 +1,21 @@
 <?php
-// Official SVN Trunk Rev: 2435
-/* My own patch, if you don't want it - comment lines below.
- * To moja własna łatka, jeśli nie chcesz z niej korzystać - zakomentuj poniższe linie
- * Tomasz "jantom" Jankowski, Date: 17 04 2011 23:00 */
-if (!isset($_POST['delete'])) {$_POST['delete']='';}
-// End patch/Koniec łatki
-$locale['100'] = "Dziennik zmiany danych";
+$locale['100'] = "User Log";
 $locale['101'] = "Id";
-$locale['102'] = "Data";
-$locale['103'] = "Nazwa użytkownika";
-$locale['104'] = "Pole użytkownika";
-$locale['105'] = "Poprzednia wartość";
-$locale['106'] = "Nowa wartość";
-$locale['107'] = "Sortuj wg:";
-$locale['108'] = "Nazwa użytkownika/ID użytkownika:";
-$locale['109'] = "Wyślij";
-$locale['110'] = "Usuń wpisy starsze niż";
-$locale['111'] = "dzień/dni";
-$locale['112'] = "Brak informacji w dzienniku.";
-$locale['113'] = "Wybrana nazwa użytkownika:";
-$locale['114'] = "Anuluj";
-$locale['115'] = "Pole użytkownika:";
-$locale['116'] = "Usuń";
-$locale['117'] = "Opcje";
-$locale['118'] = "Usunięto wpisy starsze niż %d ".($_POST['delete'] > 1 || $_POST['delete'] == 0 ? "dni." : "dzień.");
-$locale['119'] = "Usunięto wpis";
-?>
+$locale['102'] = "Date";
+$locale['103'] = "User Name";
+$locale['104'] = "User Field";
+$locale['105'] = "Value Old";
+$locale['106'] = "Value New";
+$locale['107'] = "Order by:";
+$locale['108'] = "User Name / User ID:";
+$locale['109'] = "Submit";
+$locale['110'] = "Delete entries older than";
+$locale['111'] = "Days";
+$locale['112'] = "There aren't logs available at the moment.";
+$locale['113'] = "Selected User Name:";
+$locale['114'] = "Cancel";
+$locale['115'] = "User Field:";
+$locale['116'] = "Delete";
+$locale['117'] = "Options";
+$locale['118'] = "All entries older than %d days are deleted.";
+$locale['119'] = "User log entry deleted";

@@ -1,48 +1,46 @@
 <?php
-// Official SVN Trunk Rev: 1993
 // Administrators messages
-$locale['400'] = "Dodano administratora";
-$locale['401'] = "Zaktualizowano uprawnienia administratora";
-$locale['402'] = "Usunięto administratora";
+$locale['400'] = "Administrator added";
+$locale['401'] = "Administrator updated";
+$locale['402'] = "Administrator removed";
 // Search/Add Administrator
-$locale['410'] = "Dodaj administratora";
-$locale['411'] = "Wyszukaj użytkowników korzystając z&nbsp;poniższego formularza.";
-$locale['412'] = "ID użytkownika";
-$locale['413'] = "Nazwa użytkownika";
-$locale['414'] = "Szukaj";
-$locale['415'] = "Dodaj wszystkie uprawnienia";
-$locale['416'] = "Nadaj uprawnienia Głównego administratora";
-$locale['417'] = "Dodaj administratora";
-$locale['418'] = "Nie znaleziono użytkowników.";
-$locale['419'] = "Spróbuj wyszukać jeszcze raz";
+$locale['410'] = "Add Administrator";
+$locale['411'] = "Search for users to add using the form below.";
+$locale['412'] = "User ID";
+$locale['413'] = "User Name";
+$locale['414'] = "Search";
+$locale['415'] = "Apply all privileges";
+$locale['416'] = "Make Super Administrator";
+$locale['417'] = "Add Admin";
+$locale['418'] = "No users found.";
+$locale['419'] = "Search Again";
 // Current Administrators
-$locale['420'] = "Administratorzy";
-$locale['421'] = "Nazwa użytkownika";
-$locale['422'] = "Poziom administratora";
-$locale['423'] = "Opcje";
-$locale['424'] = "Główny administrator";
-$locale['425'] = "Bez dodatkowych uprawnień.";
-$locale['426'] = "Edytuj";
-$locale['427'] = "Usuń";
+$locale['420'] = "Administrators";
+$locale['421'] = "User Name";
+$locale['422'] = "Admin Level";
+$locale['423'] = "Options";
+$locale['424'] = "Primary Admin";
+$locale['425'] = "No rights assigned";
+$locale['426'] = "Edit";
+$locale['427'] = "Remove";
 // Edit Admin Rights
-$locale['440'] = "Edycja praw administratora";
-$locale['441'] = "Zarządzanie treścią";
-$locale['442'] = "Zarządzanie użytkownikami";
-$locale['443'] = "Zarządzanie stroną";
-$locale['444'] = "Wtyczki (Infusions)";
-$locale['445'] = "Zaznacz wszystko";
-$locale['446'] = "Odznacz wszystko";
-$locale['447'] = "Hasło administratora:";
-$locale['448'] = "Zapisz uprawnienia";
-$locale['449'] = "Ustawienia";
-$locale['450'] = "Tylko podstawowe";
+$locale['440'] = "Edit Admin Rights";
+$locale['441'] = "Content Admin";
+$locale['442'] = "User Admin";
+$locale['443'] = "System Admin";
+$locale['444'] = "Infusions";
+$locale['445'] = "Check all";
+$locale['446'] = "UnCheck all";
+$locale['447'] = "Admin Password:";
+$locale['448'] = "Save Admin Rights";
+$locale['449'] = "Settings";
+$locale['450'] = "Check secure";
 // Popup Error/Warning Messages
-$locale['460'] = "Usunąć administratora?";
-$locale['461'] = "Dodać administratora?";
-$locale['462'] = "Danie praw administratora stanowi potencjalne zagrożenie bezpieczeństwa!";
+$locale['460'] = "Remove this administrator?";
+$locale['461'] = "Add this administrator?";
+$locale['462'] = "Giving these admin rights to a user is a potential security risk!";
 // Remove Admin confirmation
-$locale['470'] = "Usuwanie administratora";
-$locale['471'] = "Aby potwierdzić usunięcie administratora, wpisz swoje hasło administratora:";
-$locale['472'] = "Potwierdź";
-$locale['473'] = "Anuluj";
-?>
+$locale['470'] = "Delete Admin";
+$locale['471'] = "In order to remove this Administrator, please enter your admin password:";
+$locale['472'] = "Confirm";
+$locale['473'] = "Cancel";

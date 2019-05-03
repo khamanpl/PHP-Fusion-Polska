@@ -1,29 +1,31 @@
 <?php
-// Official SVN Trunk Rev: 1732
 // Smiley titles
-$locale['401'] = "Dodaj uśmieszka";
-$locale['402'] = "Edytuj uśmieszka";
-$locale['400'] = "Istniejące uśmieszki";
+$locale['401'] = "Add Smiley";
+$locale['402'] = "Edit Smiley";
+$locale['400'] = "Current Smileys";
 // Smiley messages
-$locale['410'] = "Dodano uśmieszka.";
-$locale['411'] = "Zaktualizowano uśmieszka.";
-$locale['412'] = "Usunięto uśmieszka.";
-$locale['413'] = "Nie można było zaktualizować uśmieszka, ponieważ";
-$locale['414'] = "Nie można było dodać uśmieszka, ponieważ";
-$locale['415'] = "taki kod jest już w&nbsp;użyciu.";
-$locale['416'] = "Usunąć uśmieszka?";
+$locale['410'] = "Smiley added";
+$locale['411'] = "Smiley updated";
+$locale['412'] = "Smiley deleted";
+$locale['413'] = "Unable to update smiley";
+$locale['414'] = "Unable to add smiley";
+$locale['415'] = "The smiley code is in use.";
+$locale['416'] = "Do you really want to delete this smiley?";
 // Smiley form
-$locale['420'] = "Kod uśmieszka:";
-$locale['421'] = "Obraz uśmieszka:";
-$locale['422'] = "Opis uśmieszka:";
-$locale['423'] = "Zapisz";
-$locale['424'] = "Podgląd uśmieszka:";
+$locale['420'] = "Smiley Code:";
+$locale['421'] = "Smiley Image:";
+$locale['422'] = "Smiley Text:";
+$locale['423'] = "Save Smiley";
+$locale['424'] = "Smiley Preview:";
 // Current Smileys
-$locale['430'] = "Kod";
-$locale['431'] = "Obraz";
-$locale['432'] = "Opis";
-$locale['433'] = "Opcje";
-$locale['434'] = "Edytuj";
-$locale['435'] = "Usuń";
-$locale['436'] = "Nie zdefiniowano uśmieszków.";
-?>
+$locale['430'] = "Code";
+$locale['431'] = "Image";
+$locale['432'] = "Text";
+$locale['433'] = "Options";
+$locale['434'] = "Edit";
+$locale['435'] = "Delete";
+$locale['436'] = "There are no smileys defined.";
+// Error Message
+$locale['437'] = "Please enter a Smiley Code";
+$locale['438'] = "Please select a Smiley";
+$locale['439'] = "Please enter a Smiley Text";

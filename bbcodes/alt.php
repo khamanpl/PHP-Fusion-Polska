@@ -1,4 +1,3 @@
 <?php
-$locale['bb_alt_description'] = "Wyświetla zaznaczony tekst alternatywnym stylem";
-$locale['bb_alt_usage'] = "alternatywny tekst";
-?>
+$locale['bb_alt_description'] = "Displays selected text as alternative";
+$locale['bb_alt_usage'] = "Alternative text";

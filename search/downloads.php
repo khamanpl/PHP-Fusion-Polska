@@ -1,11 +1,10 @@
 <?php
-$locale['d400'] = "Download";
-$locale['d401'] = "plik spełniający";
-$locale['d402'] = "plików spełniających";
-$locale['d403'] = "[NOWY]";
-$locale['d404'] = "Licencja:";
+$locale['d400'] = "Downloads";
+$locale['d401'] = "Download";
+$locale['d402'] = "Downloads";
+$locale['d403'] = "[NEW]";
+$locale['d404'] = "License:";
 $locale['d405'] = "O/S:";
-$locale['d406'] = "Wersja:";
-$locale['d407'] = "Data dodania:";
-$locale['d408'] = "Pobrań:";
-?>
+$locale['d406'] = "Version:";
+$locale['d407'] = "Date Added:";
+$locale['d408'] = "Downloads:";

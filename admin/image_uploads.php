@@ -1,29 +1,35 @@
 <?php
-// Official SVN Trunk Rev: 1732
+$locale['100'] = "Fusion File Manager";
+
 // Delete Image
-$locale['400'] = "Usuwanie obrazów";
-$locale['401'] = "Obraz został usunięty.";
-$locale['402'] = "Powróć do zarządzania obrazami";
-$locale['403'] = "Powróć do początku panelu administracyjnego";
+$locale['400'] = "Delete Image";
+$locale['401'] = "Image Deleted";
+$locale['402'] = "Return to Images Admin";
+$locale['403'] = "Return to Admin Index";
+
 // Upload Image
-$locale['420'] = "Dodaj obraz";
-$locale['421'] = "Nazwa pliku:";
-$locale['422'] = "Obrazy";
-$locale['423'] = "Obrazy artykułów";
-$locale['424'] = "Obrazy newsów";
-$locale['425'] = "Możesz wgrać pliki w&nbsp;rozszerzeniach *.gif, *.jpg lub *.png";
-$locale['426'] = "Obraz został wgrany";
-$locale['427'] = "Obrazy kategorii newsów";
+$locale['420'] = "Upload Image";
+$locale['421'] = "Filename:";
+$locale['422'] = "Main Images";
+$locale['423'] = "Article Images";
+$locale['424'] = "News Images";
+$locale['425'] = "You can only upload images in gif, jpg or png format";
+$locale['426'] = "Image Uploaded";
+$locale['427'] = "News Cats Images";
+$locale['428'] = "Blog Images";
+$locale['429'] = "Blog Cats Images";
+
 // View Image
-$locale['440'] = "Zobacz obraz";
-$locale['441'] = "Nie można było wyświetlić obrazu. Nieznany format pliku.";
-$locale['442'] = "Usuń ten obraz";
+$locale['440'] = "View Image";
+$locale['441'] = "Unknown file format, cannot display image.";
+$locale['442'] = "Delete this image";
+
 // Image Management
-$locale['460'] = "Lista obrazów";
-$locale['461'] = "Zobacz";
-$locale['462'] = "Usuń";
-$locale['463'] = "Brak obrazów w&nbsp;folderze";
-$locale['464'] = "Aktualizuj listę obrazów dla edytora TinyMCE";
+$locale['460'] = "Images";
+$locale['461'] = "View";
+$locale['462'] = "Delete";
+$locale['463'] = "This folder is empty";
+$locale['464'] = "Update image list for TinyMCE editor";
+
 // Popup Error/Warning Messages
-$locale['470'] = "Usunąć ten obraz?";
-?>
+$locale['470'] = "Delete this image?";

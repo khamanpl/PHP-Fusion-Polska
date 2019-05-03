@@ -1,93 +1,93 @@
 <?php
-// Official SVN Trunk Rev: 2141
 // Post Titles
-$locale['400'] = "Podgląd tematu";
-$locale['401'] = "Dodaj temat";
-$locale['402'] = "Podgląd odpowiedzi";
-$locale['403'] = "Odpowiedź";
-$locale['404'] = "Odpowiedz";
-$locale['405'] = "Zobacz zmiany";
-$locale['407'] = "Usuń post";
-$locale['408'] = "Edytuj posta";
-$locale['409'] = "Zapisz zmiany";
+$locale['400'] = "Preview Thread";
+$locale['401'] = "Post Thread";
+$locale['402'] = "Preview Reply";
+$locale['403'] = "Reply to Thread";
+$locale['404'] = "Post Reply";
+$locale['405'] = "Preview Changes";
+$locale['407'] = "Delete Post";
+$locale['408'] = "Edit Post";
+$locale['409'] = "Save Changes";
 // Post Preview
-$locale['420'] = "Bez tematu";
-$locale['421'] = "Brak treści. Wpisz treść, inaczej post nie zostanie dodany.";
-$locale['422'] = "Autor:";
-$locale['423'] = "Postów:";
-$locale['424'] = "Skąd:";
-$locale['425'] = "Data rejestracji:";
-$locale['426'] = "Dodane dnia ";
-$locale['427'] = "Edytowane przez ";
-$locale['428'] = " dnia ";
-$locale['429'] = " napisał(a):";
-$locale['430'] = "Awatar";
-$locale['431'] = "Ostatni post";
-$locale['432'] = "Lista ostatnich %s postów";
+$locale['420'] = "No Subject";
+$locale['421'] = "No Message, Post will be rejected if you do not include a Message";
+$locale['422'] = "Author:";
+$locale['423'] = "Posts:";
+$locale['424'] = "Location:";
+$locale['425'] = "Joined:";
+$locale['426'] = "Posted on ";
+$locale['427'] = "Edited by ";
+$locale['428'] = " on ";
+$locale['429'] = " wrote:";
+$locale['430'] = "User Avatar";
+$locale['431'] = "Latest post";
+$locale['432'] = "Latest %s posts";
 // Post Error/Success
-$locale['440a'] = "Niedozwolony typ pliku.";
-$locale['440b'] = "Nieprawidłowa nazwa pliku lub jego rozmiar. Sprawdź, czy rozmiar pliku nie jest większy od dozwolonego oraz usuń z&nbsp;nazwy pliku wszystkie spacje i&nbsp;polskie znaki diakrytyczne.";
-$locale['441'] = "Błąd: nie podano tematu i/lub treści posta.";
-$locale['442'] = "Dodano temat";
-$locale['443'] = "Dodano odpowiedź.";
-$locale['444'] = "Usunięto temat";
-$locale['445'] = "Usunięto posta.";
-$locale['446'] = "Zaktualizowano posta.";
-$locale['447'] = "Wróć do tematu";
-$locale['448'] = "Wróć do forum";
-$locale['449'] = "Wróć do głównej strony forum ";
-$locale['450'] = "Błąd: Twoja sesja cookie została wyczerpana, zaloguj się ponownie i&nbsp;napisz posta jeszcze raz";
-$locale['451'] = "Obserwacja tematu";
-$locale['452'] = "Od teraz obserwujesz ten temat.";
-$locale['453'] = "Już nie obserwujesz tego tematu.";
-$locale['454'] = "Zablokowano tego posta. Skontaktuj się z moderatorem w celu uzyskania dodatkowych informacji.";
-$locale['455'] = "Możesz edytować swojego posta w ciągu %d minut od jego pierwszego wysłania.";
+$locale['440a'] = "Attachment file type not allowed.";
+$locale['440b'] = "Invalid attachment filename or filesize.";
+$locale['441'] = "Error: You did not specify a Subject and/or Message";
+$locale['442'] = "Your Thread has been Posted";
+$locale['443'] = "Your Reply has been Posted";
+$locale['444'] = "The Thread has been deleted";
+$locale['445'] = "The Post has been deleted";
+$locale['446'] = "Your Post has been updated";
+$locale['447'] = "Return to Thread";
+$locale['448'] = "Return to Forum";
+$locale['449'] = "Return to Forum Index";
+$locale['450'] = "Error: Your cookie session has expired, please login and repost";
+$locale['451'] = "Track Thread";
+$locale['452'] = "You are now tracking this thread";
+$locale['453'] = "You are no longer tracking this thread";
+$locale['454'] = "This post is locked. Contact the moderator for further information.";
+$locale['455'] = "You may only edit a post for %d minute(s) after initial submission.";
 // Post Form
-$locale['460'] = "Temat";
-$locale['461'] = "Treść";
-$locale['462'] = "Kolor tekstu: ";
-$locale['463'] = "Opcje";
-$locale['464'] = "Załącznik";
-$locale['465'] = " (opcja)";
-$locale['466'] = "Maks. rozmiar pliku: %s / Dozwolone typy plików: %s / Maksymalna liczba załączników: %s";
-$locale['467'] = "Dodaj ankietę (opcja)";
-$locale['468'] = "Edytuj ankietę";
-$locale['469'] = "Tytuł ankiety";
-$locale['470'] = "Opcje ankiety";
-$locale['471'] = "Dodaj opcję";
-$locale['472'] = "Aktualizuj";
-$locale['473'] = "Usuń";
-$locale['474'] = "Powód";
+$locale['460'] = "Subject";
+$locale['461'] = "Message";
+$locale['462'] = "Font Color: ";
+$locale['463'] = "Options";
+$locale['464'] = "Attachment";
+$locale['465'] = " (Optional)";
+$locale['466'] = "Max. filesize: %s / Allowed filetypes: %s / Max. number of  attachments: %s";
+$locale['467'] = "Add Poll (Optional)";
+$locale['468'] = "Edit Poll";
+$locale['469'] = "Poll Title";
+$locale['470'] = "Poll Option";
+$locale['470a'] = $locale['470']." 1";
+$locale['470b'] = $locale['470']." 2";
+$locale['471'] = "Add Option";
+$locale['472'] = "Update";
+$locale['473'] = "Delete";
+$locale['474'] = "Edit Reason";
 // Post Form Options
-$locale['480'] = "Przyklej temat";
-$locale['481'] = "Zablokuj temat";
-$locale['482'] = "Wyłącz uśmieszki w&nbsp;poście";
-$locale['483'] = "Pokaż mój podpis";
-$locale['484'] = "Usuń posta";
-$locale['485'] = "Usuń załącznik -";
-$locale['486'] = "Powiadom mnie, kiedy pojawi się odpowiedź";
-$locale['487'] = "Ukryj edycję";
-$locale['488'] = "Zablokuj posta";
+$locale['480'] = "Make this Thread Sticky";
+$locale['481'] = "Lock this Thread";
+$locale['482'] = "Disable Smileys in this Post";
+$locale['483'] = "Show My Signature in this Post";
+$locale['484'] = "Delete this Post";
+$locale['485'] = "Delete attachment -";
+$locale['486'] = "Notify me when a reply is posted";
+$locale['487'] = "Hide Edit";
+$locale['488'] = "Lock Post";
 // Post Access Violation
-$locale['500'] = "Nie masz uprawnień do edycji tego posta.";
-// Forum Post Merger
-$locale['520'] = "Połączony z";
-// Search Forum Form
-$locale['530'] = "Przeszukaj forum";
-$locale['531'] = "Słowa kluczowe";
-$locale['532'] = "Szukaj";
-// Forum Notification Email
-$locale['550'] = "Powiadomienie o odpowiedzi w temacie {THREAD_SUBJECT}";
-$locale['551'] = "Witaj {USERNAME}
+$locale['500'] = "You cannot edit this post.";
 
-Do tematu '{THREAD_SUBJECT}', który obserwujesz na ".$settings['sitename']." dodano nową odpowiedź. Jeśli chcesz ją zobaczyć, kliknij na poniższy link:
+// Forum Post Merger
+$locale['520'] = "Merged on";
+
+// Search Forum Form
+$locale['530'] = "Search Forum";
+$locale['531'] = "Search Keyword(s)";
+$locale['532'] = "Search";
+// Forum Notification Email
+$locale['550'] = "Thread Reply Notification - {THREAD_SUBJECT}";
+$locale['551'] = "Hello {USERNAME},
+
+A reply has been posted in the forum thread '{THREAD_SUBJECT}' which you are tracking at ".$settings['sitename'].". You can use the following link to view the reply:
 
 {THREAD_URL}
 
-Z pozdrowieniami,
-".$settings['siteusername'].".
+If you no longer wish to watch this thread you can click the 'Stop tracking this thread' link located at the top of the thread.
 
-------
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.\n
-Jeśli nie chcesz otrzymywać kolejnych powiadomień, przejdź do obserwowanego tematu i&nbsp;kliknij na umieszczony na początku tematu link 'Nie chcę obserwować tego tematu'.";
-?>
+Regards,
+".$settings['siteusername'].".";

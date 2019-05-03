@@ -1,27 +1,25 @@
 <?php
-// Official SVN Trunk Rev: 1999
 // Titles
-$locale['400'] = "Dziennik błędów";
-$locale['401'] = "Szczegóły błędu w pliku ";
+$locale['400'] = "Error Log";
+$locale['401'] = "Take a look into the file";
 // Errors table
-$locale['410'] = "Treść błędu";
-$locale['411'] = "Na stronie";
-$locale['412'] = "Użytkownik";
-$locale['413'] = "Data";
+$locale['410'] = "Error";
+$locale['411'] = "On Page";
+$locale['412'] = "User";
+$locale['413'] = "Date";
 $locale['414'] = "Status";
-$locale['415'] = "Linia:";
-$locale['416'] = "Poziom:";
+$locale['415'] = "Line:";
+$locale['416'] = "Level:";
 $locale['417'] = "IP:";
-$locale['418'] = "Brak błędów w dzienniku.";
-$locale['419'] = "Plik";
-$locale['420'] = "Szczegóły";
-$locale['421'] = "Kod źródłowy";
-$locale['422'] = "Do góry";
+$locale['418'] = "No errors in the log.";
+$locale['419'] = "File";
+$locale['420'] = "Details";
+$locale['421'] = "Source code";
+$locale['422'] = "Back to top";
 // Delete form
-$locale['440'] = "Usuń wszystkie wpisy o statusie";
+$locale['440'] = "Delete all entries with status";
 // Status form
-$locale['450'] = "Nowy";
-$locale['451'] = "Rozwiązany";
-$locale['452'] = "Pominięty";
-$locale['453'] = "Usuń";
-?>
+$locale['450'] = "New";
+$locale['451'] = "Solved";
+$locale['452'] = "Ignored";
+$locale['453'] = "Apply";

@@ -1,5 +1,3 @@
 <?php
-// Official SVN Trunk Rev: 1732
-$locale['uf_comments-stat'] = "Komentarzy";
-$locale['uf_comments-stat_desc'] = "Wyświetla liczbę napisanych komentarzy.";
-?>
+$locale['uf_comments-stat'] = "Comments Posted";
+$locale['uf_comments-stat_desc'] = "Displays number of comments posted.";

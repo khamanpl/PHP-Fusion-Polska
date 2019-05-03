@@ -1,76 +1,85 @@
 <?php
-// Official SVN Trunk Rev: 1853
 // Panel Management
-$locale['400'] = "Zarządzanie panelami";
-$locale['401'] = "Nazwa";
-$locale['402'] = "Miejsce";
-$locale['403'] = "Kolejność";
-$locale['404'] = "Typ";
-$locale['405'] = "Dostęp";
-$locale['406'] = "Opcje";
+$locale['400'] = "Panels";
+$locale['401'] = "Panel Name";
+$locale['402'] = "Side";
+$locale['403'] = "Order";
+$locale['404'] = "Type";
+$locale['405'] = "Access";
+$locale['406'] = "Options";
+$locale['407'] = "Current Panels";
+$locale['408'] = "Add Panel";
+$locale['409'] = "Edit Panel";
+$locale['410'] = "You can drag and drop the panels across the panels window to switch positions or shuffle the panel ordering.";
 // Panel Settings
-$locale['420'] = "Lewa strona";
-$locale['421'] = "Na górze";
-$locale['422'] = "Prawa strona";
-$locale['423'] = "Plik";
-$locale['424'] = "Kod PHP";
-$locale['425'] = "Na dole";
+$locale['420'] = "Left";
+$locale['421'] = "Upper Center";
+$locale['422'] = "Right";
+$locale['423'] = "File";
+$locale['424'] = "PHP";
+$locale['425'] = "Lower Center";
+$locale['426'] = "Below header";
+$locale['427'] = "Above footer";
 // Panel Options
-$locale['430'] = "Przesuń na lewą stronę";
-$locale['431'] = "Przesuń na prawą stronę";
-$locale['432'] = "Przenieś wyżej";
-$locale['433'] = "Przenieś niżej";
-$locale['434'] = "Edytuj";
-$locale['435'] = "Włącz";
-$locale['436'] = "Wyłącz";
-$locale['437'] = "Usuń";
-$locale['438'] = "Dodaj nowy";
-$locale['439'] = "Odśwież kolejność";
-$locale['440'] = "Usunąć panel?";
-$locale['441'] = "Przesuń na lewą stronę";
-$locale['442'] = "Przesuń na prawą stronę";
-$locale['443'] = "Przenieś wyżej";
-$locale['444'] = "Przenieś niżej";
-$locale['445'] = "Przesuń do paneli na górze";
-$locale['446'] = "Przesuń do paneli na dole";
+$locale['430'] = "Move to left";
+$locale['431'] = "Move to right";
+$locale['432'] = "Move up";
+$locale['433'] = "Move down";
+$locale['434'] = "Edit";
+$locale['435'] = "Enable";
+$locale['436'] = "Disable";
+$locale['437'] = "Delete";
+$locale['438'] = "New Panel";
+$locale['439'] = "Refresh Panel Order Values";
+$locale['440'] = "Delete this Panel?";
+$locale['441'] = "Left";
+$locale['442'] = "Right";
+$locale['443'] = "Up";
+$locale['444'] = "Down";
+$locale['445'] = "Move to upper";
+$locale['446'] = "Move to lower";
 // Add/Edit Panel Form
-$locale['450'] = "Edytuj panel";
-$locale['451'] = "Dodaj panel";
-$locale['452'] = "Nazwa:";
-$locale['453'] = "Nazwa pliku panelu:";
-$locale['454'] = "Jeśli wybierzesz, zawartość panelu będzie zignorowana.";
-$locale['455'] = "Zawartość panelu:";
-$locale['456'] = "Hasło administratora:";
-$locale['457'] = "Umiejscowienie:";
-$locale['458'] = "Dostępny dla:";
-$locale['459'] = "Wyświetl panel na wszystkich stronach";
-$locale['460'] = "Podgląd";
-$locale['461'] = "Zapisz";
-$locale['462'] = "Dodatkowe ograniczenia:";
-$locale['463'] = "Przykłady:";
-$locale['464'] = "Ukrywaj na tych stronach";
-$locale['465'] = "Wyświetlaj na tych stronach";
+$locale['450'] = "Edit Panel";
+$locale['451'] = "Add Panel";
+$locale['452'] = "Panel Name:";
+$locale['453'] = "Panel Filename:";
+$locale['454'] = "Panel content will be ignored if selected";
+$locale['455'] = "Panel Content:";
+$locale['456'] = "Admin Password:";
+$locale['457'] = "Panel Side:";
+$locale['458'] = "Panel Access:";
+$locale['459'] = "Display panel on all pages <br /> <b>Note</b>: If you want to use exceptions you must have this enabled.";
+$locale['460'] = "Preview Panel";
+$locale['461'] = "Save Panel";
+$locale['462'] = "Panel Restriction:";
+$locale['463'] = "Examples:";
+$locale['464'] = "Exclude on these pages only";
+$locale['465'] = "Include on these pages only";
+$locale['466'] = "Panel Language:";
+$locale['467'] = "Display on home page only";
+$locale['468'] = "Panel Type";
 // Update/Add new Panel Errors
-$locale['470'] = "Nie podano nazwy panelu.";
-$locale['471'] = "Już istnieje panel o&nbsp;takiej nazwie.";
-$locale['472'] = "Nie podano zawartości panelu.";
-$locale['473'] = "Nie wybrano pliku panelu.";
-$locale['474'] = "Podano nieprawidłowe hasło administratora.";
-$locale['475'] = "Musisz zaznaczyć \"Wyświetl panel na wszystkich stronach\", gdy ograniczasz wyświetlanie górnych lub dolnych paneli.";
+$locale['470'] = "Panel name not defined";
+$locale['471'] = "Panel name in use";
+$locale['472'] = "Panel content not defined";
+$locale['473'] = "Panel filename not defined";
+$locale['474'] = "Admin password is incorrect";
+$locale['475'] = "There must be at least a section in the filter list to use the filter";
 // Update/Add new Panel Success/Fail
-$locale['480'] = "Aktualizacja panelu";
-$locale['481'] = "Nie można było zaktualizować panelu.";
-$locale['482'] = "Zaktualizowano panel.";
-$locale['483'] = "Dodawanie nowego panelu";
-$locale['484'] = "Nie można było dodać nowego panelu.";
-$locale['485'] = "Dodano nowy panel.";
-$locale['486'] = "Powróć do zarządzania panelami";
-$locale['487'] = "Powróć do początku panelu administratora";
-$locale['488'] = "Odświeżono kolejność.";
-
-/* My own patch, if you don't want it - comment lines below. It makes table with panels wider
- * To moja własna łatka, jeśli nie chcesz z niej korzystać - zakomentuj poniższe linie
- * Tomasz "jantom" Jankowski, Date: 03 04 2011 23:30 */
-require_once INCLUDES."output_handling_include.php"; //Without it, after moving a panel, you can see error - Fatal error: Call to undefined function replace_in_output
-replace_in_output("<div style=\'width:600px;\' class=\'panels tbl-border center floatfix\'>","<div style=\'width:80%;min-width:650px;\' class=\'panels tbl-border center floatfix\'>","si");
-?>
+$locale['480'] = "Update Panel";
+$locale['481'] = "Could not update Panel";
+$locale['482'] = "Panel updated";
+$locale['483'] = "New Panel";
+$locale['484'] = "Could not add new Panel";
+$locale['485'] = "New Panel Added";
+$locale['486'] = "Return to Panel Management";
+$locale['487'] = "Return to Admin Index";
+$locale['488'] = "Panels order updated.";
+$locale['489'] = "Panels deleted.";
+//Visual Panel
+$locale['600'] = "Panel Management Interface";
+$locale['602'] = "Unused panels";
+$locale['603'] = "Used panels";
+$locale['604'] = "Panels";
+$locale['605'] = "Panel";
+$locale['606'] = "Site content";

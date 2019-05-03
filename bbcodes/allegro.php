@@ -1,5 +1,4 @@
 <?php
 $locale['bb_allegro'] = "Allegro";
-$locale['bb_allegro_description'] = "Wyszukuje przedmioty na Allegro - polskim serwisie aukcyjnym";
-$locale['bb_allegro_usage'] = "tekst do wyszukania przez Allegro";
-?>
+$locale['bb_allegro_description'] = "Searches items on Allegro - Polish auctions service";
+$locale['bb_allegro_usage'] = "Text to search on Allegro";

@@ -10,5 +10,5 @@ $locale['c106'] = "Zarządzaj komentarzami";
 $locale['c107'] = " Wyłącz uśmieszki w&nbsp;komentarzu";
 $locale['c108'] = "Edytuj";
 $locale['c109'] = "Usuń";
-$locale['c110'] = "Usuń ten komentarz";
+$locale['c110'] = "Usunąć komentarz?";
 ?>

@@ -1,47 +1,47 @@
 <?php
-// Official SVN Trunk Rev: 1872
 // Database Restore
-$locale['400'] = "Kopia bazy danych";
-$locale['401'] = "Błąd";
-$locale['402'] = "Nieprawidłowy format kopii bazy danych";
-$locale['403'] = "Zamknij";
+$locale['400'] = "Database Restore";
+$locale['401'] = "Error";
+$locale['402'] = "Invalid Backup File Format";
+$locale['403'] = "Close";
 // Backup File Information
-$locale['410'] = "Opcje zapisu";
-$locale['411'] = "Informacje dotyczące kopii bazy danych";
-$locale['412'] = "Nazwa pliku:";
-$locale['413'] = "Data:";
-$locale['414'] = "Nazwa bazy danych:";
-$locale['415'] = "Prefix głównych tabel:";
-$locale['416'] = "Tabele:";
-$locale['417'] = "Zobacz";
-$locale['418'] = "Anuluj";
-$locale['419'] = "tabel";
+$locale['410'] = "Backup File Information";
+$locale['411'] = "Restore File Information";
+$locale['412'] = "Backup Filename:";
+$locale['413'] = "Backup Date:";
+$locale['414'] = "Database Name:";
+$locale['415'] = "Core Table Prefix:";
+$locale['416'] = "Tables:";
+$locale['417'] = "View";
+$locale['418'] = "Cancel";
+$locale['419'] = "tables";
 // Database Restore
-$locale['430'] = "Opcje przywracania bazy danych";
-$locale['431'] = "Nazwa pliku:";
-$locale['432'] = "Data:";
-$locale['433'] = "Utwórz tabele:";
-$locale['434'] = "Zawartość tabel:";
-$locale['435'] = "Wybierz:";
-$locale['436'] = "wszystko";
-$locale['437'] = "nic";
-$locale['438'] = "Przywróć";
-$locale['439'] = "Anuluj";
-$locale['440'] = "Wspierane typy plików:";
+$locale['430'] = "Restore Options";
+$locale['431'] = "Filename:";
+$locale['432'] = "Date:";
+$locale['433'] = "Create Tables:";
+$locale['434'] = "Populate Tables:";
+$locale['435'] = "Select:";
+$locale['436'] = "all";
+$locale['437'] = "none";
+$locale['438'] = "Restore";
+$locale['439'] = "Cancel";
+$locale['440'] = "Supported File Types:";
 // Database Backup
-$locale['450'] = "Tworzenie kopii zapasowej";
-$locale['451'] = "Informacje o&nbsp;bazie danych";
-$locale['452'] = "Rozmiar wszystkich tabel:";
-$locale['453'] = "Rozmiar rdzenia:";
-$locale['454'] = "Opcje zapisu kopii:";
-$locale['455'] = "Rozszerzenie kopii bazy danych:";
-$locale['456'] = "(kompresja)";
-$locale['457'] = "Tabele bazy danych";
-$locale['458'] = "rdzeń";
-$locale['459'] = "Wykonaj kopię";
-$locale['460'] = "Hasło administratora:";
-$locale['461'] = "Wymagane informacje";
+$locale['450'] = "Database Backup";
+$locale['451'] = "Database Information";
+$locale['452'] = "Total Table Size:";
+$locale['453'] = "Core Table Size:";
+$locale['454'] = "Backup Options:";
+$locale['455'] = "Backup Type:";
+$locale['456'] = "(compressed)";
+$locale['457'] = "Database Tables";
+$locale['458'] = "core";
+$locale['459'] = "Backup";
+$locale['460'] = "Admin Password:";
+$locale['460b'] = "Please enter your Admin Password";
+$locale['461'] = "Required Information";
 // Backup List
-$locale['480'] = "Przywróć kopię bazy danych";
-$locale['481'] = "Nazwa pliku:";
-?>
+$locale['480'] = "Restore Backup";
+$locale['481'] = "Filename:";
+$locale['481b'] = "Please enter a Filename";

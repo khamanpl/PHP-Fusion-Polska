@@ -1,19 +1,14 @@
 <?php
 /**
-
- * Polish Locale Utf-8
+ * English Locale
  *
- * @locale charset           ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
- * @locale region            ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
- * @locale tinymce           refer to path includes/jscripts/tinymce/langs/{value}.js
- * @locale phpmailer         refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
- * @package locale/Polish
-
-
-
-*/
-
-
+ * @locale charset     ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
+ * @locale region      ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
+ * @locale tinymce     refer to path includes/jscripts/tinymce/langs/{value}.js
+ * @locale phpmailer   refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
+ * @locale filemanager refer to path includes/filemanager/lang/{value}.php
+ * @package locale/English
+ */
 
 setlocale(LC_TIME, "pl", "pl_PL.UTF-8", "polish"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
@@ -23,7 +18,8 @@ $locale['short_lang_name'] = "pl";
 $locale['tinymce'] = "pl";
 $locale['select2'] = "pl";
 $locale['phpmailer'] = "pl";
-$locale['datepicker'] = "pl-Pl";
+$locale['filemanager'] = "pl_PL";
+$locale['datepicker'] = "pl";
 $locale['datepicker_js'] = "DD-M-YYYY H:mm:ss";
 $locale['datepicker_php'] = "d-m-Y H:i:s";
 $locale['password_strength'] = "pl";
@@ -33,7 +29,7 @@ $locale['text-direction'] = "ltr";
 // Full & Short Months
 $locale['months'] = "&nbsp|styczeń|luty|marzec|kwiecień|maj|czerwiec|lipiec|sierpień|wrzesień|październik|listopad|grudzień";
 $locale['shortmonths'] = "&nbsp|st.|lt.|mar.|kwi.|maj|czer.|lip.|sier.|wrz.|paź.|lis.|gru.";
-$locale['weekdays'] = "niedziela|poniedziałek|wtorek|środa|czwartek|piątek|sobota";
+$locale['weekdays'] = "Niedziela|Poniedziałek|Wtorek|Środa|Czwartek|Piątek|Sobota";
 // Timers
 $locale['year'] = "rok";
 $locale['year_a'] = "lata";
@@ -58,7 +54,6 @@ $locale['username_pretext'] = "Twoja publiczna nazwa jest taka sama jak twój ad
 $locale['first_name'] = "Imię";
 $locale['middle_name'] = "Drugię Imię";
 $locale['last_name'] = "Nazwisko";
-
 // Standard User Levels
 $locale['user0'] = "Gość";
 $locale['user1'] = "Użytkownik";
@@ -98,9 +93,9 @@ $locale['global_020'] = "Ostatnio na forum";
 $locale['global_021'] = "Najnowsze tematy";
 $locale['global_022'] = "Najciekawsze tematy";
 $locale['global_023'] = "Brak tematów na forum";
-$locale['global_024'] = "Twoje wątki";
+$locale['global_024'] = "Uczestniczył w dyskusjach";
 $locale['global_027'] = "Wątki bez odpowiedzi";
-$locale['global_028'] = "Unsolved Questions";
+$locale['global_028'] = "Nierozwiązane pytania";
 // Comments Side panel
 $locale['global_025'] = "Ostatnie komentarze";
 $locale['global_026'] = "Brak komentarzy";
@@ -156,22 +151,25 @@ $locale['global_082'] = "News";
 $locale['global_083'] = "Ostatnio zaktualizowane";
 $locale['global_084'] = "Kategoria news";
 $locale['global_085'] = "Pozostałe kategorie";
-// DALEJ                                              >>>>>>>
-$locale['global_086'] = "Most Recent News";
-$locale['global_087'] = "Most Commented News";
-$locale['global_088'] = "Highest Rating News";
-$locale['global_089'] = "Be the first to comment on %s";
-$locale['global_089a'] = "Be the first to rate on this %s";
-$locale['global_089b'] = "Thumb view";
-$locale['global_089c'] = "List view";
+$locale['global_086'] = "Najnowsze newsy";
+$locale['global_087'] = "Najczęściej komentowane newsy";
+$locale['global_088'] = "Najczęściej oceniane newsy";
+$locale['global_089'] = "Bądź pierwszym, który skomentuje %s";
+$locale['global_089a'] = "Bądź pierwszym, który oceni %s";
+$locale['global_089b'] = "Widok podglądu";
+$locale['global_089c'] = "Widok listy";
 // Page Navigation
 $locale['global_090'] = "Poprzednia";
 $locale['global_091'] = "Następna";
 $locale['global_092'] = "Strona ";
 $locale['global_093'] = " z&nbsp;";
+$locale['global_094'] = " łącznie ";
 // Guest User Menu
 $locale['global_100'] = "Logowanie";
 $locale['global_101'] = "Nazwa użytkownika";
+$locale['global_101a'] = "Wpisz nazwę użytkownika";
+$locale['global_101b'] = "Wpisz email";
+$locale['global_101c'] = "Wpisz email i nazwę użytkownika";
 $locale['global_102'] = "Hasło";
 $locale['global_103'] = "Zapamiętaj mnie";
 $locale['global_104'] = "Zaloguj";
@@ -179,6 +177,7 @@ $locale['global_105'] = "Nie masz jeszcze konta? <br /><a href='".BASEDIR."regis
 $locale['global_106'] = "Nie możesz się zalogować?<br /> Poproś o&nbsp;<a href='".BASEDIR."lostpassword.php' class='side'>nowe hasło</a>";
 $locale['global_107'] = "Rejestracja";
 $locale['global_108'] = "Zapomniane hasło";
+$locale['global_109'] = "Zarejestruj";
 // Member User Menu
 $locale['global_120'] = "Edytuj profil";
 $locale['global_121'] = "Prywatne wiadomości";
@@ -204,16 +203,59 @@ $locale['global_139'] = "Wybierz ankietę z&nbsp;listy:";
 $locale['global_140'] = "Zobacz wyniki";
 $locale['global_141'] = "Wyniki ankiety";
 $locale['global_142'] = "Brak przeprowadzanych ankiet.";
-
-//Captcha
+$locale['global_143'] = "Oceny";
+// User Menu
+$locale['UM060'] = "Login";
+$locale['UM061'] = "Username";
+$locale['UM061a'] = "Email";
+$locale['UM061b'] = "Username or Email";
+$locale['UM062'] = "Password";
+$locale['UM063'] = "Remember me on this computer";
+$locale['UM064'] = "Login";
+$locale['UM065'] = "Not a member yet?<br /><a href='".BASEDIR."register.php' class='side'>Click here</a> to register.";
+$locale['UM066'] = "Forgotten your password?<br />Request a new one <a href='".BASEDIR."lostpassword.php' class='side'>here</a>.";
+$locale['UM067'] = "(not recommended on public or shared computer)";
+$locale['UM080'] = "Edit Profile";
+$locale['UM081'] = "Private Messages";
+$locale['UM082'] = "Members List";
+$locale['UM083'] = "Admin Panel";
+$locale['UM084'] = "Logout";
+$locale['UM085'] = "You have %u new ";
+$locale['UM086'] = "message";
+$locale['UM087'] = "messages";
+$locale['UM088'] = "Followed threads";
+// Submit (news, blog, link, article)
+$locale['UM089'] = "Submit...";
+$locale['UM090'] = "Submit News";
+$locale['UM091'] = "Submit Link";
+$locale['UM092'] = "Submit Article";
+$locale['UM093'] = "Submit Photo";
+$locale['UM094'] = "Submit Download";
+$locale['UM095'] = "Submit Blog";
+$locale['UM102'] = "Submit FAQ";
+// User Panel
+$locale['UM096'] = "Welcome: ";
+$locale['UM097'] = "Personal menu";
+$locale['UM101'] = "Switch Language";
+// Gauges
+$locale['UM098'] = "PM Inbox :";
+$locale['UM099'] = "PM Outbox :";
+$locale['UM100'] = "PM Archive :";
+// Keywords and Meta
+$locale['tags'] = "Tags";
+$locale['notfound'] = "No Results Found..";
+$locale['sel_user'] = "Select User";
+// Captcha
 $locale['global_150'] = "Kod potwierdzający:";
 $locale['global_151'] = "Wpisz kod potwierdzający:";
-
 // Footer Counter
 $locale['global_170'] = "unikalna wizyta";
 $locale['global_171'] = "unikalne wizyty";
 $locale['global_172'] = "Wygenerowano w&nbsp;sekund: %s";
 $locale['global_173'] = "zapytań MySQL";
+$locale['global_174'] = "Użyta pamięć";
+$locale['global_175'] = "Średnia: %s sekund";
+$locale['global_176'] = "Polityka Prywatności";
 // Admin Navigation
 $locale['global_180'] = "Powróć do panelu administracyjnego";
 $locale['global_181'] = "Powróć do strony głównej";
@@ -238,14 +280,12 @@ $locale['global_203'] = $locale['global_200']."FAQ";
 $locale['global_204'] = $locale['global_200']."Forum";
 //Themes
 $locale['global_210'] = "Przejdź do treści";
-// No themes found
 $locale['global_300'] = "nie znaleziono skórki.";
 $locale['global_301'] = "Nie można wyświetlić strony. Jest to spowodowane brakiem plików odpowiadających za wygląd strony. Jeśli jesteś administratorem strony, uruchom swojego klienta FTP i&nbsp;wgraj do katalogu <em>/themes</em> jakąkolwiek skórkę zaprojektowaną dla <em>PHP-Fusion v7</em>. Następnie sprawdź w&nbsp;<em>Głównych ustawieniach</em> w&nbsp;<em>Panelu administratora</em> oraz upewnij się, że wybrana tam skórka jest w&nbsp;Twoim katalogu <em>/themes</em>. Jeśli tak nie jest, sprawdź, czy wgrana skórka ma taką samą nazwę (wliczając w&nbsp;to wielkość znaków, ważne na serwerach uniksowych) jak ta wybrana w&nbsp;<em>Głównych ustawieniach</em>.<br /><br />Jeśli jesteś użytkownikiem tej strony, skontaktuj się z&nbsp;administracją strony poprzez wysłanie e-maila na adres ".hide_email($settings['siteemail'])." oraz poinformuj o&nbsp;istniejącym problemie.";
 $locale['global_302'] = "Wybrana przez Ciebie skórka nie istnieje lub jest niekompletna!";
 // JavaScript Not Enabled
 $locale['global_303'] = "<p>O&nbsp;nie! Ta strona potrzebuje włączonej obsługi języka <strong>JavaScript</strong>!</p><p>Twoja przeglądarka nie obsługuje tego języka lub ma wyłączoną jego obsługę. <strong>Włącz wykonywanie kodu JavaScript</strong> w swojej przeglądarce internetowej, aby skorzystać ze wszystkich funkcji strony<br /> lub <strong>skorzystaj</strong> z&nbsp;programu obsługującego język JavaScript, np. <a href='http://firefox.com' rel='nofollow' title='Mozilla Firefox'>Mozilla Firefox</a>, <a href='http://apple.com/safari/' rel='nofollow' title='Apple Safari'>Apple Safari</a>, <a href='http://opera.com' rel='nofollow' title='Opera Web Browser'>Opera</a>, <a href='http://www.google.com/chrome' rel='nofollow' title='Google Chrome'>Google Chrome</a> lub <a href='http://www.microsoft.com/windows/internet-explorer/' rel='nofollow' title='Windows Internet Explorer'>Windows Internet Explorer</a> w&nbsp;wersji wyższej niż 6.</p>";
 // User Management
-// Member status
 $locale['global_400'] = "zawieszone";
 $locale['global_401'] = "zablokowane";
 $locale['global_402'] = "wyłączone";
@@ -259,73 +299,216 @@ $locale['global_409'] = "Konto zostało zablokowane ze względów bezpieczeństw
 $locale['global_410'] = "Powód: ";
 $locale['global_411'] = "Konto zostało zablokowane zp. bezczynności";
 $locale['global_412'] = "Konto zostało anonimizowane, prawdopodobnie z&nbsp;powodu bezczynności";
-// Banning due to flooding
-$locale['global_440'] = "Automatyczne zbanowanie przez blokadę antyfloodową";
-$locale['global_441'] = "Twoje konto na ".$settings['sitename']." zostało zbanowane.";
-$locale['global_442'] = "Witaj [USER_NAME]!\n
-Z Twojego konta na ".$settings['sitename']." wysłano zbyt wiele wiadomości w krótkim czasie z następującego IP: ".USER_IP.", w związku z czym zostało zablokowane. Powyższe działanie zostało podjęte w celu ochrony strony przed botami dodającymi wiadomości w krótkim odstępie czasu.\n
-Skontaktuj się z administracją strony wysyłając e-mail na adres ".$settings['siteemail'].", żeby odblokować konto lub wyjaśnić zaistniałą sytuację.\n
-Z pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
-// Lifting of suspension
-$locale['global_450'] = "Automatyczne zdjęcie zawieszenia konta.";
-$locale['global_451'] = "Zdjęcie zawieszenia konta na ".$settings['sitename'];
-$locale['global_452'] = "Witaj USER_NAME!\n
-Zawieszenie Twojego konta na ".$settings['siteurl']." zostało zdjęte. Zaloguj się korzystając z poniższych danych:\n
-Nazwa użytkownika: USER_NAME
-Hasło: ukryte ze względów bezpieczeństwa\n
-Jeśli nie pamiętasz hasła, zresetuj je korzystając z poniższego linka: LOST_PASSWORD\nZ pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
-$locale['global_453'] = "Witaj USER_NAME!\n
-Zdjęto zawieszenie Twojego konta na ".$settings['siteurl'].".\n
-Z pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
-$locale['global_454'] = "Reaktywowano konto na ".$settings['sitename'];
-$locale['global_455'] = "Witaj USER_NAME!\n
-Twoja ostatnia wizyta na ".$settings['siteurl']." reaktywowała Twoje konto, w związku z czym, przestało ono być uznawane za bezczynne.\n
-Z pozdrowieniami\n\n
-".$settings['siteusername']."\n\n
-------\n
-Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
+// Flood control
+$locale['global_440'] = "Automatic Ban by Flood Control";
+$locale['global_441'] = "Your account on [SITENAME] has been banned";
+$locale['global_442'] = "Hello [USER_NAME],<br/>
+Your account on [SITENAME] was caught posting too many items to the system in very short time from the IP [USER_IP], and have therefor been banned. This is done to prevent bots from submitting spam messages in rapid succession.<br/>
+Please contact the site administrator at [SITE_EMAIL] to have your account restored or report if this was not you causing this security ban.<br/>
+Regards,<br/>[SITEUSERNAME]";
+// Authenticate Class
+$locale['global_450'] = "Suspension automatically lifted by system";
+$locale['global_451'] = "Suspension lifted at [SITENAME]";
+$locale['global_452'] = "Hello USER_NAME,<br/>
+The suspension of your account at [SITEURL] has been lifted. Here are your login details:<br/>
+Username: USER_NAME<br/>Password: Hidden for security reasons<br/>
+If you have forgot your password you can reset it via the following link: LOST_PASSWORD<br/>
+Regards,<br/>[SITEUSERNAME]";
+$locale['global_453'] = "Hello USER_NAME,<br/>The suspension of your account at [SITEURL] has been lifted.<br/>
+Regards,<br/>[SITEUSERNAME]";
+$locale['global_454'] = "Account reactivated at [SITENAME]";
+$locale['global_455'] = "Hello USER_NAME,<br/>
+Last time you logged in your account was reactivated at [SITEURL] and your account is no longer marked as inactive.<br/>
+Regards,<br/>[SITEUSERNAME]";
+$locale['global_456'] = "New password notification for [SITENAME]";
+$locale['global_457'] = "Hi USER_NAME,
+<br/>A new password has been set for your account at [SITENAME]. Please find the enclosed new login details:<br/>
+Username: USER_NAME<br/>Password: [PASSWORD]<br/>Regards,<br/>[SITEUSERNAME]";
+$locale['global_458'] = "New password has been set for USER_NAME";
+$locale['global_459'] = "New password has been set for USER_NAME, and email was not sent. Please ensure to tell the user of the new details.";
 // Function parsebytesize()
-$locale['global_460'] = "Plik pusty";
-$locale['global_461'] = "Bajtów";
+$locale['global_460'] = "Empty";
+$locale['global_461'] = "Bytes";
 $locale['global_462'] = "kB";
 $locale['global_463'] = "MB";
 $locale['global_464'] = "GB";
 $locale['global_465'] = "TB";
 //Safe Redirect
-$locale['global_500'] = "Trwa przekierowanie na adres %s, proszę czekać. Naciśnij, jeśli Cię nie przekierowało.";
-
+$locale['global_500'] = "You are being redirected to %s, please wait. If you're not redirected, click here.";
 // Captcha Locales
-$locale['global_600'] = "Kod potwierdzający";
-$locale['recaptcha'] = "pl";
-$locale['recaptcha_l10n'] = "visual_challenge:'Graficzny kod potwierdzający', ";
-$locale['recaptcha_l10n'] .= "audio_challenge:'Dźwiękowy kod potwierdzający', ";
-$locale['recaptcha_l10n'] .= "refresh_btn:'Nowy test', ";
-$locale['recaptcha_l10n'] .= "instructions_visual:'Wpisz dwa słowa:', ";
-$locale['recaptcha_l10n'] .= "instructions_context:'Wpisz słowa w polu:', ";
-$locale['recaptcha_l10n'] .= "instructions_audio:'Wpisz co słyszysz:', ";
-$locale['recaptcha_l10n'] .= "help_btn:'Pomoc (po angielsku)', ";
-$locale['recaptcha_l10n'] .= "play_again:'Odtwórz ponownie', ";
-$locale['recaptcha_l10n'] .= "cant_hear_this:'Pobierz jako MP3', ";
-$locale['recaptcha_l10n'] .= "incorrect_try_again:'Nieprawidłowy kod potwierdzający. Spróbuj ponownie.'";
-
+$locale['global_600'] = "Validation Code";
+$locale['global_601'] = "You must enter a correct validation code";
+$locale['recaptcha'] = "en";
+// Site links
+$locale['global_700'] = "Show More";
 //Miscellaneous
-$locale['global_900'] = "Nie można było przekonwertować z HEX na DEC";
-
-/* My own patch, if you don't want it - comment lines below.
- * To moja własna łatka, jeśli nie chcesz z niej korzystać - zakomentuj poniższe linie
- * Tomasz "jantom" Jankowski, Date: 21 04 2011 00:30 */
-require_once INCLUDES."output_handling_include.php";
-$locale['global_073c'] = " komentarze";
-replace_in_output("2".$locale['global_073'],"2 ".$locale['global_073c']);
-replace_in_output("3".$locale['global_073'],"3 ".$locale['global_073c']);
-replace_in_output("4".$locale['global_073'],"4 ".$locale['global_073c']);
-?>
+$locale['global_900'] = "Unable to convert HEX to DEC";
+$locale['global_901'] = "Insert Media";
+//Language Selection
+$locale['global_ML100'] = "Language:";
+$locale['global_ML101'] = "- Select Language -";
+$locale['global_ML102'] = "Site language";
+$locale['global_ML103'] = "Switch Language";
+// Flood Control
+$locale['flood'] = "You are barred to post until the flood period cool down is over. Please wait for %s.";
+$locale['no_image'] = "No Image";
+$locale['send_message'] = "Send Message";
+$locale['go_profile'] = "Go to %s Profile Page";
+// Global one word locales
+$locale['hello'] = "Hello!";
+$locale['goodbye'] = "Goodbye!";
+$locale['welcome'] = "Welcome back";
+$locale['home'] = "Home";
+// Status
+$locale['error'] = "Error!";
+$locale['success'] = "Success!";
+$locale['enable'] = "Enable";
+$locale['disable'] = "Disable";
+$locale['can'] = "can";
+$locale['cannot'] = "cannot";
+$locale['no'] = "No";
+$locale['yes'] = "Yes";
+$locale['off'] = "Off";
+$locale['on'] = "On";
+$locale['or'] = "or";
+$locale['by'] = "by";
+$locale['in'] = "in";
+$locale['of'] = "of";
+$locale['and'] = "and";
+$locale['na'] = "No information available";
+$locale['joined'] = "Joined since: ";
+$locale['enter'] = "Enter";
+// Navigation
+$locale['next'] = "Next";
+$locale['previous'] = "Previous";
+$locale['back'] = "Back";
+$locale['forward'] = "Forward";
+$locale['go'] = "Go";
+$locale['cancel'] = "Cancel";
+$locale['clear'] = "Clear";
+$locale['move'] = "Move";
+$locale['move_up'] = "Move up";
+$locale['move_down'] = "Move down";
+$locale['load_more'] = "Load more Items";
+$locale['load_end'] = "Load from Beginning";
+// Actions
+$locale['add'] = "Add";
+$locale['save'] = "Save";
+$locale['save_changes'] = "Save Changes";
+$locale['save_and_close'] = "Save and Close";
+$locale['confirm'] = "Confirm";
+$locale['update'] = "Update";
+$locale['updated'] = "Updated";
+$locale['remove'] = "Remove";
+$locale['delete'] = "Delete";
+$locale['search'] = "Search";
+$locale['help'] = "Help";
+$locale['register'] = "Register";
+$locale['ban'] = "Ban";
+$locale['reactivate'] = "Reactivate";
+$locale['user'] = "User";
+$locale['promote'] = "Promote";
+$locale['show'] = "Show";
+$locale['actions'] = "Actions";
+$locale['language'] = "Language";
+$locale['loading'] = "Loading...";
+// Persons & Identifiers
+$locale['you'] = "You";
+$locale['me'] = "Me";
+$locale['they'] = "They";
+$locale['we'] = "We";
+$locale['us'] = "Us";
+$locale['he'] = "He";
+$locale['she'] = "She";
+$locale['it'] = "It";
+//Tables
+$locale['order'] = "Order";
+$locale['sort'] = "Sort";
+$locale['id'] = "ID";
+$locale['title'] = "Title";
+$locale['rights'] = "Rights";
+$locale['info'] = "Info";
+$locale['image'] = "Image";
+// Forms
+$locale['choose'] = "Please Choose One...";
+$locale['no_opts'] = "No selection";
+$locale['root'] = "As Parent";
+$locale['choose-user'] = "Please Choose a User...";
+$locale['choose-location'] = "Please Choose a Location";
+$locale['parent'] = "Create as New Parent..";
+$locale['item_order'] = "Item Ordering";
+$locale['status'] = "Status";
+$locale['note'] = "Make a note of this item";
+$locale['publish'] = "Publish";
+$locale['unpublish'] = "Unpublish";
+$locale['sticky'] = "Sticky";
+$locale['unsticky'] = "Unsticky";
+$locale['draft'] = "Draft";
+$locale['settings'] = "Settings";
+$locale['posted'] = "posted";
+$locale['profile'] = "Profile";
+$locale['edit'] = "Edit";
+$locale['qedit'] = "Quick Edit";
+$locale['view'] = "View";
+$locale['login'] = "Login";
+$locale['logout'] = "Logout";
+$locale['admin-logout'] = "Admin Logout";
+$locale['message'] = "Private Messages";
+$locale['logged'] = "Logged in as ";
+$locale['version'] = "Version ";
+$locale['browse'] = "Browse ...";
+$locale['close'] = "Close";
+$locale['nopreview'] = "There is nothing to Preview";
+$locale['mark_as'] = "Mark As";
+$locale['preview'] = "Preview";
+$locale['custom'] = "Custom";
+$locale['submit'] = "Submit";
+// Alignment
+$locale['left'] = "Left";
+$locale['center'] = "Center";
+$locale['right'] = "Right";
+// Comments and ratings
+$locale['comments'] = "Comments";
+$locale['ratings'] = "Ratings";
+$locale['comments_ratings'] = "Comments and Ratings";
+$locale['user_account'] = "User Account";
+$locale['about'] = "About";
+// User status
+$locale['online'] = "Online";
+$locale['offline'] = "Offline";
+// Words for formatting to single and plural forms. Count of forms is language-dependent
+$locale['fmt_submission'] = "submission|submissions";
+$locale['fmt_article'] = "article|articles";
+$locale['fmt_blog'] = "blog|blogs";
+$locale['fmt_comment'] = "comment|comments";
+$locale['fmt_vote'] = "vote|votes";
+$locale['fmt_rating'] = "rating|ratings";
+$locale['fmt_day'] = "day|days";
+$locale['fmt_download'] = "download|downloads";
+$locale['fmt_follower'] = "follower|followers";
+$locale['fmt_forum'] = "forum|forums";
+$locale['fmt_guest'] = "guest|guests";
+$locale['fmt_hour'] = "hour|hours";
+$locale['fmt_item'] = "item|items";
+$locale['fmt_member'] = "member|members";
+$locale['fmt_message'] = "message|messages";
+$locale['fmt_minute'] = "minute|minutes";
+$locale['fmt_month'] = "month|months";
+$locale['fmt_news'] = "news|news";
+$locale['fmt_photo'] = "photo|photos";
+$locale['fmt_post'] = "post|posts";
+$locale['fmt_question'] = "question|questions";
+$locale['fmt_read'] = "read|reads";
+$locale['fmt_second'] = "second|seconds";
+$locale['fmt_shouts'] = "shout|shouts";
+$locale['fmt_thread'] = "thread|threads";
+$locale['fmt_user'] = "user|users";
+$locale['fmt_views'] = "view|views";
+$locale['fmt_weblink'] = "weblink|weblinks";
+$locale['fmt_week'] = "week|weeks";
+$locale['fmt_year'] = "year|years";
+$locale['fmt_points'] = "point|points";
+$locale['fmt_admin'] = "admin|admins";
+$locale['fmt_group'] = "group|groups";
+$locale['fmt_category'] = "category|categories";
+$locale['fmt_review'] = "review|reviews";
