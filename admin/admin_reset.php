@@ -36,7 +36,7 @@ Powód zmiany: [RESET_MESSAGE]
 
 Z pozdrowieniami,
 [ADMIN]
-------
+-------
 Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
 $locale['410'] = "Rezultat";
 $locale['411'] = "Podano nieprawidłowe hasło administratora.";
