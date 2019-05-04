@@ -12,14 +12,14 @@ $locale['403'] = "Tylko administratorów";
 $locale['404'] = "Powód odnowienia:";
 $locale['405'] = "Odnów hasła użytkownika i administratora";
 $locale['406'] = "Odnów hasła";
-$locale['407'] = "Odnowiono administratora na ";
+$locale['407'] = "Zmieniono administratora na ";
 $locale['408'] = "Witaj [USER_NAME],
 
-Twoje hasło administratora na ".$settings['siteurl']." zostało odnowione:
+Twoje hasło administratora na ".$settings['siteurl']." zostało zmienione:
 
 Nowe hasło administratora: [NEW_ADMIN_PASS]
 
-Powód odnowienia: [RESET_MESSAGE]
+Powód zmiany: [RESET_MESSAGE]
 
 Z pozdrowieniami,
 [ADMIN]
@@ -27,25 +27,25 @@ Z pozdrowieniami,
 Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
 $locale['409'] = "Witaj [USER_NAME],
 
-Twoje hasła użytkownika i administratora na ".$settings['siteurl']." zostały odnowione:
+Twoje hasła użytkownika i administratora na ".$settings['siteurl']." zostały zmienione:
 
 Nowe hasło użytkownika: [NEW_PASS]
 Nowe hasło administratora: [NEW_ADMIN_PASS]
 
-Powód odnowienia: [RESET_MESSAGE]
+Powód zmiany: [RESET_MESSAGE]
 
 Z pozdrowieniami,
 [ADMIN]
 ------
 Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
 $locale['410'] = "Rezultat";
-$locale['411'] = "Podano nieprawidłowe hasło administratora."; //modified by jantom 30032011
+$locale['411'] = "Podano nieprawidłowe hasło administratora.";
 $locale['412'] = "Hasło administratora:";
-$locale['415'] = "Dziennik odnowień";
+$locale['415'] = "Dziennik zmian";
 $locale['416'] = "Nr";
 $locale['417'] = "Data";
 $locale['418'] = "Kto";
-$locale['419'] = "Odnowienie";
+$locale['419'] = "Reset";
 $locale['420'] = "Zakończone sukcesem";
 $locale['421'] = "Powód";
 $locale['422'] = "z";
