@@ -1,46 +1,53 @@
 <?php
+// Official SVN Trunk Rev: 1833
 // Infusion titles & description
-$locale['apw_title'] = "Administrator Password Reset";
-$locale['apw_desc'] = "Changes Administrator login/admin passwords";
-$locale['apw_admin1'] = "Administrator Reset";
-$locale['400'] = "Administrator(s) to reset:";
-$locale['401'] = "All Administrators";
-$locale['402'] = "Only Super Administrators";
-$locale['403'] = "Only Administrators";
-$locale['404'] = "Justification for reset:";
-$locale['405'] = "Reset both login and admin passwords";
-$locale['406'] = "Reset Passwords";
-$locale['407'] = "Password reset at ";
-$locale['408'] = "Hello [USER_NAME],
+$locale['apw_title'] = "Odnowienie hasła administratora";
+$locale['apw_desc'] = "Zmienia hasła użytkownika oraz administratora wybranym członkom administracji";
+$locale['apw_admin1'] = "Odnowienie hasła administratora";
 
-Your admin password has been reset at ".$settings['siteurl'].":
+$locale['400'] = "Konta do odnowienia hasła:";
+$locale['401'] = "Wszyscy administratorzy";
+$locale['402'] = "Tylko głównego administratora";
+$locale['403'] = "Tylko administratorów";
+$locale['404'] = "Powód odnowienia:";
+$locale['405'] = "Odnów hasła użytkownika i administratora";
+$locale['406'] = "Odnów hasła";
+$locale['407'] = "Odnowiono administratora na ";
+$locale['408'] = "Witaj [USER_NAME],
 
-Admin Password: [NEW_ADMIN_PASS]
+Twoje hasło administratora na ".$settings['siteurl']." zostało odnowione:
 
-The reason for this reset is: [RESET_MESSAGE]
+Nowe hasło administratora: [NEW_ADMIN_PASS]
 
-Regards,
-[ADMIN]";
-$locale['409'] = "Hello [USER_NAME],
+Powód odnowienia: [RESET_MESSAGE]
 
-Your login and admin passwords have been reset at ".$settings['siteurl'].":
+Z pozdrowieniami,
+[ADMIN]
+------
+Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
+$locale['409'] = "Witaj [USER_NAME],
 
-Login Password: [NEW_PASS]
-Admin Password: [NEW_ADMIN_PASS]
+Twoje hasła użytkownika i administratora na ".$settings['siteurl']." zostały odnowione:
 
-The reason for this reset is: [RESET_MESSAGE]
+Nowe hasło użytkownika: [NEW_PASS]
+Nowe hasło administratora: [NEW_ADMIN_PASS]
 
-Regards,
-[ADMIN]";
-$locale['410'] = "Reset Results";
-$locale['411'] = "<strong>Notice:</strong> Admin Password not entered or incorrect.";
-$locale['412'] = "Admin Password:";
-$locale['415'] = "Reset Log";
-$locale['416'] = "Log ID";
-$locale['417'] = "Reset time";
-$locale['418'] = "Responsible";
-$locale['419'] = "Reset";
-$locale['420'] = "Successful";
-$locale['421'] = "Reason";
-$locale['422'] = "of";
-$locale['423'] = "No reason given.";
+Powód odnowienia: [RESET_MESSAGE]
+
+Z pozdrowieniami,
+[ADMIN]
+------
+Niniejsza wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.";
+$locale['410'] = "Rezultat";
+$locale['411'] = "Podano nieprawidłowe hasło administratora."; //modified by jantom 30032011
+$locale['412'] = "Hasło administratora:";
+$locale['415'] = "Dziennik odnowień";
+$locale['416'] = "Nr";
+$locale['417'] = "Data";
+$locale['418'] = "Kto";
+$locale['419'] = "Odnowienie";
+$locale['420'] = "Zakończone sukcesem";
+$locale['421'] = "Powód";
+$locale['422'] = "z";
+$locale['423'] = "Nie podano powodu.";
+?>

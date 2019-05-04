@@ -1,34 +1,36 @@
 <?php
+// Official SVN Trunk Rev: 2222
 // Category titles
-$locale['400'] = "Add Article Category";
-$locale['401'] = "Edit Article Category";
-$locale['402'] = "Current Article Categories";
+$locale['400'] = "Dodaj kategorię artykułów";
+$locale['401'] = "Edytuj kategorię artykułów";
+$locale['402'] = "Istniejące kategorie artykułów";
 // Category messages
-$locale['410'] = "Article Category added";
-$locale['411'] = "Article Category updated";
-$locale['412'] = "Article Category cannot be deleted";
-$locale['413'] = "There are Articles linked to this category";
-$locale['414'] = "Article Category deleted";
+$locale['410'] = "Dodano kategorię artykułów.";
+$locale['411'] = "Zaktualizowano kategorię artykułów.";
+$locale['412'] = "Nie można było usunąć kategorii artykułów.";
+$locale['413'] = "Do kategorii są przypisane artykuły.<br />Przenieś je do innej kategorii.";
+$locale['414'] = "Usunięto kategorię artykułów.";
 // Category form
-$locale['420'] = "Category Name:";
-$locale['421'] = "Category Description:";
-$locale['422'] = "Category Sorting:";
-$locale['423'] = "Article ID";
-$locale['424'] = "Article Subject";
-$locale['425'] = "Article Date";
-$locale['426'] = "Ascending";
-$locale['427'] = "Descending";
-$locale['428'] = "Category Access:";
-$locale['429'] = "Save Category";
+$locale['420'] = "Nazwa kategorii:";
+$locale['421'] = "Opis kategorii:";
+$locale['422'] = "Sortuj wg:";
+$locale['423'] = "ID Artykułu";
+$locale['424'] = "Tematu artykułu";
+$locale['425'] = "Daty dodania";
+$locale['426'] = "Rosnąco";
+$locale['427'] = "Malejąco";
+$locale['428'] = "Dostęp dla:";
+$locale['429'] = "Zapisz";
 // Current category options
-$locale['440'] = "Category";
-$locale['441'] = "Access";
-$locale['442'] = "Options";
-$locale['443'] = "Edit";
-$locale['444'] = "Delete";
-$locale['445'] = "No Article Categories defined";
+$locale['440'] = "Kategoria";
+$locale['441'] = "Dostęp dla";
+$locale['442'] = "Opcje";
+$locale['443'] = "Edycja";
+$locale['444'] = "Usuń";
+$locale['445'] = "Nie zdefiniowano kategorii artykułów";
 // Delete Article category
-$locale['450'] = "Delete this article category?";
+$locale['450'] = "Usunąć kategorię artykułów?";
 // Error Messages
-$locale['460'] = "Please enter a category name.";
-$locale['461'] = "This category already exists.";
+$locale['460'] = "Musisz podać nazwę kategorii.";
+$locale['461'] = "Kategoria o takiej nazwie już istnieje.";
+?>
