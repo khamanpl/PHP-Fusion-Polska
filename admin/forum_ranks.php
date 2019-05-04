@@ -1,39 +1,41 @@
 <?php
+// Official SVN Trunk Rev: 2242
 // Forum Ranks Titles
-$locale['400'] = "Add Rank";
-$locale['401'] = "Edit Rank";
-$locale['402'] = "Current Ranks";
-$locale['403'] = "Rank System Disabled";
+$locale['400'] = "Dodaj rangę";
+$locale['401'] = "Edytuj rangę";
+$locale['402'] = "Istniejące rangi";
+$locale['403'] = "Wyłączono system rang";
 // News messages
-$locale['410'] = "Rank added";
-$locale['411'] = "Rank updated";
-$locale['412'] = "Rank deleted";
-$locale['413'] = "Only one rank can be assigned to admins and mods";
-$locale['414'] = "Please enter a Rank Title";
+$locale['410'] = "Dodano rangę.";
+$locale['411'] = "Zaktualizowano rangę.";
+$locale['412'] = "Usunięto rangę.";
+$locale['413'] = "Administratorzy i&nbsp;moderatorzy mogą mieć tylko po jednej randze.";
+$locale['414'] = "Wprowadź tytuł rangi";
 // Forum Ranks form
-$locale['420'] = "Rank Title:";
-$locale['421'] = "Rank Image:";
-$locale['422'] = "Rank Posts:";
-$locale['423'] = "Apply to:";
-$locale['424'] = "Members";
-$locale['425'] = "Moderators";
-$locale['426'] = "Administrators";
-$locale['427'] = "Super Administrators";
-$locale['428'] = "Save Rank";
-$locale['429'] = "Rank type:";
-$locale['429a'] = "Special";
-$locale['429b'] = "Admin";
-$locale['429c'] = "Post count";
+$locale['420'] = "Tytuł rangi:";
+$locale['421'] = "Obraz rangi:";
+$locale['422'] = "Wymagana liczba postów:";
+$locale['423'] = "Dostępna dla:";
+$locale['424'] = "Użytkowników";
+$locale['425'] = "Moderatorów";
+$locale['426'] = "Administratorów";
+$locale['427'] = "Głównych administratorów";
+$locale['428'] = "Zapisz";
+$locale['429'] = "Typ:";
+$locale['429a'] = "Specjalna";
+$locale['429b'] = "Administratorów";
+$locale['429c'] = "Od liczby postów";
 // Current Forum Ranks
-$locale['430'] = "Title";
-$locale['431'] = "Applies To";
-$locale['432'] = "Image";
-$locale['433'] = "Posts";
-$locale['434'] = "Options";
-$locale['435'] = "Edit";
-$locale['436'] = "Delete";
-$locale['437'] = "No Forum Ranks defined.";
-$locale['438'] = "Type / Count";
+$locale['430'] = "Tytuł";
+$locale['431'] = "Dostępna dla";
+$locale['432'] = "Obraz";
+$locale['433'] = "Wymagana liczba postów";
+$locale['434'] = "Opcje";
+$locale['435'] = "Edytuj";
+$locale['436'] = "Usuń";
+$locale['437'] = "Nie zdefiniowano rang na forum.";
+$locale['438'] = "Typ / Postów";
 // Forum Ranks Disabled
-$locale['450'] = "Forum ranks are currently disabled.<br />Please go to the %s Admin Panel to enable.";
-$locale['451'] = "Forum Settings";
+$locale['450'] = "System rang na forum jest wyłączony.<br />Przejdź do %s, aby go włączyć.";
+$locale['451'] = "ustawień forum";
+?>

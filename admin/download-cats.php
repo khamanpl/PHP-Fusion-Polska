@@ -1,34 +1,36 @@
 <?php
+// Official SVN Trunk Rev: 2222
 // Download Category titles
-$locale['400'] = "Edit Download Category";
-$locale['401'] = "Add Download Category";
-$locale['402'] = "Current Download Categories";
+$locale['400'] = "Edytuj kategorię downloadu";
+$locale['401'] = "Dodaj kategorię downloadu";
+$locale['402'] = "Istniejące kategorie downloadu";
 // Download Category messages
-$locale['410'] = "Download Category added";
-$locale['411'] = "Download Category updated";
-$locale['412'] = "Download Category cannot be deleted";
-$locale['413'] = "There are downloads linked to this category";
-$locale['414'] = "Download Category deleted";
+$locale['410'] = "Dodano kategorię downloadu.";
+$locale['411'] = "Zaktualizowano kategorię downloadu.";
+$locale['412'] = "Nie można było usunąć kategorii downloadu.";
+$locale['413'] = "Do kategorii są przypisane pliki do pobrania.<br />Przenieś je do innej kategorii.";
+$locale['414'] = "Usunięto kategorię downloadu.";
 // Download Category form
-$locale['420'] = "Category Name:";
-$locale['421'] = "Category Description:";
-$locale['422'] = "Category Sorting:";
-$locale['423'] = "Download ID";
-$locale['424'] = "Download Title";
-$locale['425'] = "Download Date";
-$locale['426'] = "Ascending";
-$locale['427'] = "Descending";
-$locale['428'] = "Category Access:";
-$locale['429'] = "Save Category";
+$locale['420'] = "Nazwa:";
+$locale['421'] = "Opis:";
+$locale['422'] = "Sortuj pliki wg:";
+$locale['423'] = "ID pliku";
+$locale['424'] = "Tytułu";
+$locale['425'] = "Data dodania";
+$locale['426'] = "Rosnąco";
+$locale['427'] = "Malejąco";
+$locale['428'] = "Dostęp dla:";
+$locale['429'] = "Zapisz";
 // Current Download Categories
-$locale['440'] = "Category";
-$locale['441'] = "Access";
-$locale['442'] = "Options";
-$locale['443'] = "Edit";
-$locale['444'] = "Delete";
-$locale['445'] = "There are no Download Categories defined";
+$locale['440'] = "Kategoria";
+$locale['441'] = "Dostęp dla";
+$locale['442'] = "Opcje";
+$locale['443'] = "Edytuj";
+$locale['444'] = "Usuń";
+$locale['445'] = "Brak zdefiniowanych kategorii downloadu.";
 // Delete Download category
-$locale['450'] = "Delete this download category?";
+$locale['450'] = "Usunąć kategorię downloadu?";
 // Error Messages
-$locale['460'] = "Please enter a category name.";
-$locale['461'] = "This category already exists.";
+$locale['460'] = "Musisz podać nazwę kategorii.";
+$locale['461'] = "Kategoria o takiej nazwie już istnieje.";
+?>
