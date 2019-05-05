@@ -1,4 +1,5 @@
 <?php
 $locale['bb_googlevideo'] = "Google Video";
-$locale['bb_googlevideo_description'] = "Google Video flash movie embedder";
-$locale['bb_googlevideo_usage'] = "Google Video movie ID";
+$locale['bb_googlevideo_description'] = "Wyświetla film z&nbsp;Google Video";
+$locale['bb_googlevideo_usage'] = "identyfikator filmu";
+?>
