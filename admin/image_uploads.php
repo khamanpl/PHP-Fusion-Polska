@@ -1,5 +1,5 @@
 <?php
-$locale['100'] = "Fusion File Manager";
+$locale['100'] = "Menedżer plików";
 // Delete Image
 $locale['400'] = "Usuwanie obrazów";
 $locale['401'] = "Obraz został usunięty.";
