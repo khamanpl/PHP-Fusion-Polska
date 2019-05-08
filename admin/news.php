@@ -1,43 +1,45 @@
 <?php
+// Official SVN Trunk Rev: 2023
 // News titles
-$locale['400'] = "Current News";
-$locale['401'] = "Add News";
-$locale['402'] = "Edit News";
+$locale['400'] = "Istniejące newsy";
+$locale['401'] = "Dodaj newsa";
+$locale['402'] = "Edytuj newsa";
 // News messages
-$locale['410'] = "News Item added";
-$locale['411'] = "News Item updated";
-$locale['412'] = "News Item deleted";
-$locale['413'] = "Invalid image filename.";
-$locale['414'] = "Image must be less than %s.";
-$locale['415'] = "Image must be a GIF, JPEG or PNG file.";
-$locale['416'] = "Image must be no bigger than %uw x %uh pixels.";
+$locale['410'] = "Dodano newsa.";
+$locale['411'] = "Zaktualizowano newsa.";
+$locale['412'] = "Usunięto newsa.";
+$locale['413'] = "Nieprawidłowa nazwa pliku obrazu. Usuń z&nbsp;niej wszystkie spacje oraz polskie znaki diakrytyczne.";
+$locale['414'] = "Obraz nie może być większy niż %s.";
+$locale['415'] = "Obraz musi mieć format pliku GIF, JPEG lub PNG.";
+$locale['416'] = "Wymiary obrazu nie mogą być większe niż %uw x %uh pikseli.";
 // News form
-$locale['420'] = "Edit";
-$locale['421'] = "Delete";
-$locale['422'] = "Subject:";
-$locale['423'] = "Category:";
-$locale['424'] = "- None -";
-$locale['425'] = "News:";
-$locale['426'] = "Extended News:";
-$locale['427'] = "Start Date:";
-$locale['428'] = "End Date:";
-$locale['429'] = "(Optional)";
-$locale['430'] = "Visibility:";
-$locale['431'] = "Save as draft";
-$locale['432'] = "Make this news item sticky";
-$locale['433'] = "Automatic Line-Breaks";
-$locale['434'] = "Enable Comments";
-$locale['435'] = "Enable Ratings";
-$locale['436'] = "Preview News";
-$locale['437'] = "Save News";
-$locale['438'] = "[DRAFT]";
-$locale['439'] = "News Image";
-$locale['440'] = "Max. filesize: %s / Allowed filetypes: GIF, JPEG or PNG.";
-$locale['441'] = "Pagebreak";
+$locale['420'] = "Edytuj";
+$locale['421'] = "Usuń";
+$locale['422'] = "Temat:";
+$locale['423'] = "Kategoria:";
+$locale['424'] = "- Żadna -";
+$locale['425'] = "Treść:";
+$locale['426'] = "Treść rozszerzona:";
+$locale['427'] = "Data rozpoczęcia wyświetlania:";
+$locale['428'] = "Data zakończenia wyświetlania:";
+$locale['429'] = "(opcjonalne)";
+$locale['430'] = "Dostępny dla:";
+$locale['431'] = "Zapisz jako szkic";
+$locale['432'] = "Przyklej newsa";
+$locale['433'] = "Włącz automatyczne łamanie linii";
+$locale['434'] = "Włącz komentarze";
+$locale['435'] = "Włącz ocenianie";
+$locale['436'] = "Podgląd";
+$locale['437'] = "Zapisz";
+$locale['438'] = "[SZKIC]";
+$locale['439'] = "Zdjęcie do newsa";
+$locale['440'] = "Maks. wielkość pliku: %s / Dozwolone rozszerzenia: GIF, JPEG lub PNG.";
+$locale['441'] = "Koniec strony";
 // Popup Error/Warning Messages
-$locale['450'] = "Please specify a subject";
-$locale['451'] = "Delete this News?";
-$locale['452'] = "%s are disabled for all items.<br />This setting will only take effect when they are enabled again.";
-$locale['453'] = "Comments";
-$locale['454'] = "Ratings";
-$locale['455'] = $locale['453']." and ".$locale['454'];
+$locale['450'] = "Wpisz temat.";
+$locale['451'] = "Usunąć newsa?";
+$locale['452'] = "%s jest wyłączona globalnie i&nbsp;będzie niedostępna, dopóki ustawienia nie ulegną zmianie.";
+$locale['453'] = "Możliwość komentowania";
+$locale['454'] = "Możliwość oceniania";
+$locale['455'] = "Możliwość oceniania oraz komentowania";
+?>

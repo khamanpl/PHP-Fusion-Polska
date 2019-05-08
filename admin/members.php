@@ -1,149 +1,153 @@
 <?php
+// Official SVN Trunk Rev: 1942
 // Member Management Options
-$locale['400'] = "User Management";
-$locale['401'] = "User";
-$locale['402'] = "Add New Member";
-$locale['403'] = "User Type";
-$locale['404'] = "Options";
-$locale['405'] = "View";
-$locale['406'] = "Edit";
-$locale['407'] = "Activate";
-$locale['408'] = "Unban";
-$locale['409'] = "Ban";
-$locale['410'] = "Delete";
-$locale['411'] = "There are no %s members";
-$locale['412'] = " beginning with ";
-$locale['413'] = " matching ";
-$locale['414'] = "Show All";
-$locale['415'] = "Search for member:";
-$locale['416'] = "Search";
-$locale['417'] = "Select Action";
-$locale['418'] = "Cancel";
-$locale['419'] = "Reinstate";
+$locale['400'] = "Użytkownicy";
+$locale['401'] = "Użytkownik";
+$locale['402'] = "Dodaj nowego użytkownika";
+$locale['403'] = "Typ użytkownika";
+$locale['404'] = "Opcje";
+$locale['405'] = "Zobacz konta";
+$locale['406'] = "Edytuj";
+$locale['407'] = "Aktywuj";
+$locale['408'] = "Odblokuj";
+$locale['409'] = "Zablokuj";
+$locale['410'] = "Usuń";
+$locale['411'] = "Nie ma kont użytkowników";
+$locale['412'] = " rozpoczynających się na ";
+$locale['413'] = " zawierających w swojej nazwie ";
+$locale['414'] = "Pokaż wszystkich";
+$locale['415'] = "Szukaj użytkowników:";
+$locale['416'] = "Szukaj";
+$locale['417'] = "Wybierz akcję";
+$locale['418'] = "Anuluj";
+$locale['419'] = "Przywróć";
 // Ban/Unban/Delete Member
-$locale['420'] = "Ban Imposed";
-$locale['421'] = "Ban Removed";
-$locale['422'] = "Member Deleted";
-$locale['423'] = "Are you sure you wish to delete this member?";
-$locale['424'] = "Member Activated";
-$locale['425'] = "<h2>Warning!</h2><br />
-You are about to delete user <strong>%s</strong> !<br />
-The following content <u>posted by this user</u> on this site will be deleted if you proceed:<br />
-- Articles<br />
-- News<br />
-- Forum threads. Note that posts made by other users in these threads will also be deleted, along with the poll votes and attachments existent in this threads.<br />
-- Forum posts<br />
-- Forum attachments<br />
-- Comments<br />
-- Private messages sent or received by this user<br />
-- Poll votes<br />
-- Ratings given<br />
-Unless this is a spammer for eg. we recommend you to Ban, Suspend, Cancel or Anonymize this user.<br />
+$locale['420'] = "Zablokowano konto użytkownika";
+$locale['421'] = "Odblokowano konto użytkownika";
+$locale['422'] = "Usunięto konto użytkownika";
+$locale['423'] = "Na pewno chcesz usunąć konto tego użytkownika?";
+$locale['424'] = "Aktywowano konto użytkownika";
+$locale['425'] = "<h2>Uwaga!</h2><br />
+Masz zamiar skasować użytkownika <strong>%s</strong> !<br />
+Następująca zawartość <u>użytkownika</u> zostanie skasowana na tej stronie:<br />
+- Artykuły<br />
+- Newsy<br />
+- Tematy na forum. Posty innych użytkowników w tych tamatach także zostaną skasowane, jak i ankiety i załączniki w tych tematach<br />
+- Posty na forum<br />
+- Załączniki na forum<br />
+- Komentarze<br />
+- Prywatne wiadomości wysłane, lub odebrane przez tego użytkownika.<br />
+- Głosy w ankietach<br />
+- Oceny<br />
+Jeśli to nie jest np. spamer, zalecamy Zbanowanie, Zawieszenie, Wyłączenie lub Ukrycie użytkownika.<br />
 <br />
-Are you sure you want to delete this user?<br />";
-$locale['426'] = "Yes";
-$locale['427'] = "No";
+Czy chcesz skasować tego użytkownika?<br />";
+$locale['426'] = "Tak";
+$locale['427'] = "Nie";
 // Edit Member Details
-$locale['430'] = "Edit Member";
-$locale['431'] = "Member details updated";
-$locale['432'] = "Return to Members Admin";
-$locale['433'] = "Return to Admin Index";
-$locale['434'] = "Unable to Update Member details:";
+$locale['430'] = "Edytuj profil";
+$locale['431'] = "Zaktualizowano dane użytkownika";
+$locale['432'] = "Powróć do zarządzania użytkownikami";
+$locale['433'] = "Powróć do początku panelu administracyjnego";
+$locale['434'] = "Nie można było zaktualizować danych użytkownika:";
 // Extra Edit Member Details form options
-$locale['440'] = "Save Changes";
+$locale['440'] = "Zapisz zmiany";
 // Update Profile Errors
-$locale['450'] = "Cannot edit primary administrator.";
-$locale['451'] = "You must specify a user name and email address.";
-$locale['452'] = "User name contains invalid characters.";
-$locale['453'] = "The user name ".(isset($_POST['user_name']) ? $_POST['user_name'] : "")." is in use.";
-$locale['454'] = "Invalid email address.";
-$locale['455'] = "The email address ".(isset($_POST['user_email']) ? $_POST['user_email'] : "")." is in use.";
-$locale['456'] = "New Passwords do not match.";
-$locale['457'] = "Invalid password, use alpha numeric characters only.<br />
-Password must be a minimum of 6 characters long.";
-$locale['458'] = "<strong>Warning:</strong> unexpected script execution.";
+$locale['450'] = "Nie masz praw do edycji danych głównego adminstratora.";
+$locale['451'] = "Musisz podać nazwę użytkownika oraz e-mail.";
+$locale['452'] = "Nazwa użytkownika zawiera nieobsługiwane znaki.";
+$locale['453'] = "Niniejszy login (".(isset($_POST['user_name']) ? $_POST['user_name'] : "").") jest już w&nbsp;użyciu.";
+$locale['454'] = "Podano nieprawidłowy adres e-mail.";
+$locale['455'] = "Niniejszy adres e-mail (".(isset($_POST['user_email']) ? $_POST['user_email'] : "").") jest już w&nbsp;użyciu.";
+$locale['456'] = "Nowe hasła użytkownika nie pasują do siebie.";
+$locale['457'] = "Nieprawidłowe hasło użytkownika, proszę o&nbsp;korzystanie wyłącznie ze znaków alfanumerycznych.<br />Hasło musi zawierać minimum 6 znaków.";
+$locale['458'] = "<strong>Ostrzeżenie:</strong> nieprzewidziane zachowanie skryptu.";
 // View Member Profile
-$locale['470'] = "Member Profile";
-$locale['472'] = "Statistics";
-$locale['473'] = "User Groups";
+$locale['470'] = "Profil użytkownika";
+$locale['472'] = "Statystyki";
+$locale['473'] = "Grupy użytkownika";
 // Add Member Errors
-$locale['480'] = "Add Member";
-$locale['481'] = "The member account has been created.";
-$locale['482'] = "The member account could not be created.";
+$locale['480'] = "Dodaj konto użytkownika";
+$locale['481'] = "Konto użytkownika zostało utworzone.";
+$locale['482'] = "Nie można było utworzyć konta użytkownika.";
 // Suspension Log
-$locale['510s'] = "Suspension Log for ";
-$locale['511s'] = "There are no recorded suspensions for this member in the suspension log.";
-$locale['512s'] = "Previous suspensions of ";
-$locale['513'] = "No."; // as in number
-$locale['514'] = "Date";
-$locale['515'] = "Reason";
-$locale['516'] = "Suspending Administrator";
-$locale['517'] = "System Action";
-$locale['518'] = "Back to User Profile";
-$locale['519'] = "Suspension Log for this User ";
-$locale['520'] = "Lifted: ";
+$locale['510s'] = "Dziennik konta";
+$locale['511s'] = "Brak informacji w dzienniku na temat tego konta użytkownika.";
+$locale['512s'] = "Poprzednie ";
+$locale['513'] = "Nr"; // as in number
+$locale['514'] = "Data";
+$locale['515'] = "Powód";
+$locale['516'] = "Zawieszający";
+$locale['517'] = "Akcje";
+$locale['518'] = "Wróć do profilu konta";
+$locale['519'] = "Dziennik konta ";
+$locale['520'] = "Zdjęte: ";
 $locale['521'] = "IP: ";
-$locale['522'] = "Not yet reinstated";
-$locale['540'] = "Error";
-$locale['541'] = "Error: You must state a reason for the Suspension!";
-$locale['542'] = "Error: You must state a reason for the Security Ban!";
+$locale['522'] = "Jeszcze nie włączone";
+// User Management Errors
+$locale['540'] = "Błąd";
+$locale['541'] = "Błąd: Musisz wpisać powód zawieszenia!";
+$locale['542'] = "Błąd: Musisz wpisać powód zablokowania zp. bezpieczeństwa!";
 // User Management Admin
-$locale['550'] = "Suspend User: ";
-$locale['551'] = "Duration in days:";
-$locale['552'] = "Reason:";
-$locale['553'] = "Suspend";
-$locale['554'] = "There are no recorded suspensions for this member in the suspension log.";
-$locale['555'] = "If you decide that this user should be banned click on 'Ban'";
-$locale['556'] = "Lift Suspension of User: ";
-$locale['557'] = "Lift Suspension";
-$locale['558'] = "Lift Ban of User: ";
-$locale['559'] = "Lift Ban ";
-$locale['560'] = "Lift Security Ban of User: ";
-$locale['561'] = "Lift Security Ban";
-$locale['562'] = "Ban User: ";
-$locale['563'] = "Security Ban User: ";
-$locale['585a'] = "Please specify a reason for why you are banning or unbanning ";
-$locale['566'] = "Ban lifted";
-$locale['568'] = "Security Ban imposed";
-$locale['569'] = "Security Ban lifted";
-$locale['572'] = "Member suspended";
-$locale['573'] = "Suspension lifted";
-$locale['574'] = "Member deactivated";
-$locale['575'] = "Member reactivated";
-$locale['576'] = "Account cancelled";
-$locale['577'] = "Account cancellation undone";
-$locale['578'] = "Account cancelled and anonymized";
-$locale['579'] = "Account anonymization undone";
-$locale['580'] = "Deactivate Inactive Members";
-$locale['581'] = "You have more then 50 inactive users and will have to run the deactivation process <strong>%d times</strong>.";
-$locale['582'] = "Reactivate";
-$locale['583'] = "Re-instate";
-$locale['584'] = "Select new status";
-$locale['585'] = "This Member was originally banned for security reasons! Are you certain you want to unban this member now?";
-$locale['590'] = "Suspend";
-$locale['591'] = "Unsuspend";
-$locale['592'] = "suspending";
-$locale['593'] = "unsuspending";
-$locale['594'] = "Please specify a reason for why you are ";
-$locale['595'] = " the user ";
-$locale['596'] = "Duration:";
-$locale['600'] = "Security ban";
-$locale['601'] = "security banning";
-$locale['602'] = "Unban";
-$locale['603'] = "unbanning";
-$locale['604'] = "Reason:";
+$locale['550'] = "Zawieszone konto: ";
+$locale['551'] = "Czas trwania w&nbsp;dniach";
+$locale['552'] = "Powód:";
+$locale['553'] = "Zawieś";
+$locale['554'] = "Brak informacji o&nbsp;zawieszeniach tego konta.";
+$locale['555'] = "Jeśli uważasz, że dane konto powinno być zablokowane, naciśnij 'Zablokuj'";
+$locale['556'] = "Zdejmij zawieszenie konta: ";
+$locale['557'] = "Zdjęte zawieszenie konta";
+$locale['558'] = "Zdejmij blokadę konta: ";
+$locale['559'] = "Zdjęto blokadę konta ";
+$locale['560'] = "Zdejmij blokadę konta zp. bezpieczeństwa: ";
+$locale['561'] = "Zdejmij blokadę zp. bezpieczeństwa konta";
+$locale['562'] = "Zablokowane: ";
+$locale['563'] = "Zablokowane zp. bezpieczeństwa: ";
+$locale['566'] = "Zdjęto blokadę";
+$locale['568'] = "Nałożono blokadę konta zp. bezpieczeństwa";
+$locale['569'] = "Zdjęto blokadę konta zp. bezpieczeństwa";
+$locale['572'] = "Konto zawieszone";
+$locale['573'] = "Zdjęto zawieszenie";
+$locale['574'] = "Konto wyłaczone";
+$locale['575'] = "Konto reaktywowane";
+$locale['576'] = "Konto ukryte";
+$locale['577'] = "Cofnięcie wyłączonia zp. bezczynności konta";
+$locale['578'] = "Konto wyłączone zp. bezczynności i ukryte";
+$locale['579'] = "Cofnięcie ukrycia konta";
+$locale['580'] = "Wyłącz bezczynne konta";
+$locale['581'] = "Masz ponad 50 bezczynnych kont. Musisz wykonać jeszcze <strong>%d</strong> raz(y) procedurę deaktywacji kont.";
+$locale['582'] = "Reaktywuj";
+$locale['583'] = "Włącz ponownie";
+$locale['584'] = "Wybierz nowy status";
+$locale['585'] = "To konto użytkownika zostało zablokowane z/p bezpieczeństwa! Czy na pewno chcesz je odblokować?";
+$locale['585a'] = "Podaj powód, dla którego blokujesz lub odblokowujesz konto użytkownika ";
+
+$locale['590'] = "Zawieś";
+$locale['591'] = "Odwieś";
+$locale['592'] = "zawieszasz";
+$locale['593'] = "odwieszasz";
+$locale['594'] = "Podaj powód, dla którego  ";
+$locale['595'] = " konto użytkownika ";
+$locale['596'] = "Czas trwania:";
+
+$locale['600'] = "Blokada zp. bezpieczeństwa";
+$locale['601'] = "blokowanie zp. bezpieczeństwa";
+$locale['602'] = "Odblokuj ";
+$locale['603'] = "odblokowywanie";
+$locale['604'] = "Powód:";
+
 // Deactivation System
-$locale['610'] = "<strong>%d user(s)</strong> have not logged in for <strong>%d day(s)</strong> and have been marked as inactive.
-By deactivating these users they will have <strong>%d day(s)</strong> before they are %s.";
-$locale['611'] = "Please note that some users may have submitted content to your site such as forum posts, comments, photos etc.
-these will be deleted when deactivated users are being deleted.";
-$locale['612'] = "user";
-$locale['613'] = "users";
-$locale['614'] = "Deactivate";
-$locale['615'] = "permanently deleted";
-$locale['616'] = "anonymize";
-$locale['617'] = "Warning:";
-$locale['618'] = "It is strongly recommended to change deactivation action to anonymize instead of delete to prevent data loss!";
-$locale['619'] = "You can do so here.";
-$locale['620'] = "anonymize";
-$locale['621'] = "Automatic deactivation of inactive users.";
+$locale['610'] = "Istnieje <strong>%d</strong> kont(o), na które nie logowano się od ponad <strong>%d ".($settings['deactivation_period'] > 1 ? "dni" : "dzień")."</strong>, a&nbsp;które można oznaczyć jako bezczynne.<br />
+Użytkownicy będą mieli <strong>%d ".($settings['deactivation_response'] > 1 ? "dni" : "dzień")."</strong> na zapobiegnięcie ich %s.";
+$locale['611'] = "Pamiętaj, że część użytkowników mogła dodać do Twojej strony posty, komentarze, zdjęcia itp. Powyższe treści zostaną usunięte razem z&nbsp;kontami, jeśli w&nbspustawieniach systemu deaktywacji jako działanie wobec bezczynnych kont masz ustawione usuwanie kont.";
+$locale['612'] = "konto";
+$locale['613'] = "konta";
+$locale['614'] = "Wyłącz";
+$locale['615'] = "całkowitym usunięciu";
+$locale['616'] = "ukryciu";
+$locale['617'] = "Ostrzeżenie:";
+$locale['618'] = "Zalecana jest zmiana ustawień systemu deaktywacji z&nbsp;usuwania kont na ich ukrycie. Uchroni to przed utratą danych!";
+$locale['619'] = "Przejdź do odpowiedniej sekcji ustawień.";
+$locale['620'] = "ukryj";
+$locale['621'] = "Automatyczna blokada nieaktywnych kont.";
+?>
