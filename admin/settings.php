@@ -19,6 +19,7 @@ $locale['415'] = "jednokolumnowy";
 $locale['416'] = "dwukolumnowy";
 $locale['417'] = "Język strony:";
 $locale['418'] = "Skórka:";
+$locale['418a'] = "Skórka panelu administratora:";
 $locale['419'] = "Domyślne miejsce wyszukiwania:";
 $locale['420'] = "Wyłącz lewe panele na:";
 $locale['421'] = "Wyłącz górne panele na:";
